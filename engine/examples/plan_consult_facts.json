@@ -1,0 +1,8 @@
+{"goal":"근력 저하가 있는 디스크 환자에게 수술 선택지를 정직하게 설명하고 스스로 결정하게 돕기",
+ "domain":"hospital_consult","audience":{"involvement":"high","role":"환자와 보호자"},
+ "facts":[
+  {"claim":"MRI 판독: 4-5번 요추 디스크 탈출과 신경 압박","source":"영상 판독지","verified":true,"kind":"reason"},
+  {"claim":"집도의는 척추 전문의, 해당 수술 경력 15년","source":"병원 의료진 소개(사실 확인)","verified":true,"kind":"credential"},
+  {"claim":"우리 병원 최근 1년 해당 수술 환자 92% 6주 내 일상 복귀","source":"병원 질 지표 보고서(예시)","verified":true,"kind":"statistic"},
+  {"claim":"환자 본인 목표: 손주와 산책하기","source":"초진 문진(환자 본인 말)","verified":true,"kind":"commitment"},
+  {"claim":"비수술 치료·경과 관찰 대안과 장단점","source":"진료 지침","verified":true,"kind":"alternative"}]}

@@ -1,0 +1,8 @@
+{"goal": "검진 예약 늘리기 (검진을 꺼리는 중년 남성 직원)", "domain": "staff",
+ "audience": {"prior_attitude": "opposed", "identity_threat": "high", "culture": "collectivist"},
+ "techniques": ["study.ego_depletion"],
+ "facts": [
+  {"claim": "작년 우리 병원 직원 검진 수검률 61%", "source": "총무팀 2025 집계", "verified": true, "kind": "statistic"},
+  {"claim": "검진은 근무 시간 중 30분, 비용 병원 부담", "source": "2026 복지 규정", "verified": true, "kind": "reason"},
+  {"claim": "같은 부서 동료 다수가 이미 예약", "source": "", "verified": false, "kind": "statistic"}
+ ]}

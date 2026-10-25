@@ -1,0 +1,2004 @@
+{
+ "meta": {
+  "created_kst": "2026-10-25",
+  "note": "위키 미수정. 기존 엔티티는 이름 문자열(Cialdini:/Munger:/PDF:/FactGate)로만 연결 — 위키 생성 작업 완료 후 실제 id로 매핑 필요. sources는 sources.csv id.",
+  "relation_types": [
+   "supports",
+   "contradicts",
+   "extends",
+   "counters",
+   "requires_fact",
+   "evidence_grade"
+  ],
+  "grades": {
+   "A": "메타분석·재현됨",
+   "B": "다수 연구",
+   "C": "소수·논쟁",
+   "D": "재현 실패"
+  }
+ },
+ "entities": [
+  {
+   "id": "theory.elm",
+   "type": "theory",
+   "name": "Elaboration Likelihood Model",
+   "name_ko": "정교화 가능성 모델",
+   "evidence_grade": "B",
+   "sources": [
+    "PETTY1986",
+    "PETTY1981"
+   ],
+   "summary": "관여·능력이 높으면 논증 질(중심경로), 낮으면 단서(주변경로)로 태도가 바뀜. 중심경로 변화가 더 오래감.",
+   "links_existing": [
+    "Cialdini:권위",
+    "Cialdini:사회적 증거",
+    "Munger:#22 권위 오판"
+   ]
+  },
+  {
+   "id": "theory.hsm",
+   "type": "theory",
+   "name": "Heuristic-Systematic Model",
+   "name_ko": "휴리스틱-체계 모델",
+   "evidence_grade": "B",
+   "sources": [
+    "CHAIKEN1980"
+   ],
+   "summary": "휴리스틱(출처 호감·전문성)과 체계적 처리가 동시에 일어날 수 있음.",
+   "links_existing": [
+    "Cialdini:호감",
+    "Cialdini:권위"
+   ]
+  },
+  {
+   "id": "theory.prospect",
+   "type": "theory",
+   "name": "Prospect Theory",
+   "name_ko": "전망 이론",
+   "evidence_grade": "A",
+   "sources": [
+    "KT1979",
+    "RUGGERI2020",
+    "BROWN2024"
+   ],
+   "summary": "이득보다 손실을 더 크게 느낌(손실 회피). 19개국 재현 성공, 손실회피 계수 평균 약 2 안팎이나 연구마다 편차 큼.",
+   "links_existing": [
+    "Cialdini:희귀성",
+    "Munger:#14 박탈 초반응"
+   ],
+   "effect_size": "손실회피 λ 대략 1.5~2.5 범위(메타분석 평균 2 근처)"
+  },
+  {
+   "id": "theory.framing",
+   "type": "theory",
+   "name": "Framing effect",
+   "name_ko": "프레이밍 효과",
+   "evidence_grade": "A",
+   "sources": [
+    "TK1981"
+   ],
+   "summary": "같은 사실도 표현(생존 90% vs 사망 10%)에 따라 선택이 달라짐.",
+   "links_existing": [
+    "Munger:#16 대조 오반응"
+   ]
+  },
+  {
+   "id": "theory.heuristics",
+   "type": "theory",
+   "name": "Heuristics and biases",
+   "name_ko": "휴리스틱과 편향",
+   "evidence_grade": "A",
+   "sources": [
+    "TK1974",
+    "KLEIN2014"
+   ],
+   "summary": "대표성·가용성·기준점(앵커링). 앵커링은 Many Labs에서 강하게 재현됨.",
+   "links_existing": [
+    "Munger:#18 가용성 오판",
+    "Munger:#16 대조 오반응"
+   ]
+  },
+  {
+   "id": "theory.pkm",
+   "type": "theory",
+   "name": "Persuasion Knowledge Model",
+   "name_ko": "설득 지식 모델",
+   "evidence_grade": "B",
+   "sources": [
+    "FRIESTAD1994"
+   ],
+   "summary": "사람은 \"지금 설득당하고 있다\"를 알아차리면 대처 전략을 씀 → 노출된 기법은 약해짐.",
+   "links_existing": [
+    "Defense:5W"
+   ]
+  },
+  {
+   "id": "theory.inoculation",
+   "type": "theory",
+   "name": "Inoculation theory / prebunking",
+   "name_ko": "접종 이론·사전반박",
+   "evidence_grade": "A",
+   "sources": [
+    "MCGUIRE1961",
+    "BANAS2010",
+    "VDL2017",
+    "ROOZ2022",
+    "MODIR2023"
+   ],
+   "summary": "약한 공격+반박을 미리 보여주면 저항력 생김. 메타분석상 효과 있음. 단, 게임형 접종은 진짜/가짜 구별력보다 전반적 의심만 키운다는 반론.",
+   "links_existing": [
+    "Defense:방어 프로토콜"
+   ]
+  },
+  {
+   "id": "theory.transportation",
+   "type": "theory",
+   "name": "Narrative transportation",
+   "name_ko": "서사 몰입(이동) 이론",
+   "evidence_grade": "A",
+   "sources": [
+    "GREEN2000",
+    "VANLAER2014",
+    "BRADDOCK2016"
+   ],
+   "summary": "이야기에 빠져들면 반론이 줄고 신념이 이야기 쪽으로 이동. 메타분석상 소~중 효과.",
+   "links_existing": [
+    "Munger:#18 가용성 오판"
+   ]
+  },
+  {
+   "id": "theory.mft",
+   "type": "theory",
+   "name": "Moral Foundations Theory",
+   "name_ko": "도덕 기반 이론",
+   "evidence_grade": "B",
+   "sources": [
+    "GRAHAM2009"
+   ],
+   "summary": "진보는 배려·공정, 보수는 충성·권위·순수도 중시.",
+   "links_existing": [
+    "Cialdini:연대감"
+   ]
+  },
+  {
+   "id": "theory.motivated_reasoning",
+   "type": "theory",
+   "name": "Motivated reasoning",
+   "name_ko": "동기화된 추론",
+   "evidence_grade": "B",
+   "sources": [
+    "KUNDA1990",
+    "KAHAN2012",
+    "KAHAN2017",
+    "TAPPIN2020"
+   ],
+   "summary": "원하는 결론 쪽으로 증거를 평가. 다만 \"당파 동기\" 효과의 인과 해석은 사전 신념 차이와 혼동된다는 비판(Tappin 2020).",
+   "links_existing": [
+    "Munger:#4 의심 회피",
+    "Munger:#5 불일치 회피",
+    "Munger:#12 자아 존중"
+   ]
+  },
+  {
+   "id": "theory.affective_polarization",
+   "type": "theory",
+   "name": "Affective polarization",
+   "name_ko": "정서적 양극화",
+   "evidence_grade": "B",
+   "sources": [
+    "IYENGAR2012",
+    "IYENGAR2019",
+    "VOELKEL2023",
+    "BROOCKMAN2023"
+   ],
+   "summary": "상대 당을 싫어하는 감정이 정책 차이보다 큼. 이를 줄여도 반민주 태도는 그대로라는 실험 결과.",
+   "links_existing": [
+    "Cialdini:연대감",
+    "Munger:#3 호감·#2 혐오"
+   ]
+  },
+  {
+   "id": "theory.reactance",
+   "type": "theory",
+   "name": "Psychological reactance",
+   "name_ko": "심리적 반발",
+   "evidence_grade": "A",
+   "sources": [
+    "BREHM1966",
+    "RAINS2013"
+   ],
+   "summary": "자유 위협을 느끼면 반대로 움직임. 분노+부정적 인지가 결합된 상태.",
+   "links_existing": [
+    "Cialdini:희귀성",
+    "Munger:#14 박탈 초반응"
+   ]
+  },
+  {
+   "id": "theory.conformity",
+   "type": "theory",
+   "name": "Conformity (Asch)",
+   "name_ko": "동조",
+   "evidence_grade": "A",
+   "sources": [
+    "ASCH1956",
+    "BOND1996",
+    "CIAL2004"
+   ],
+   "summary": "집단 압력에 오답 동조. 집단주의 문화에서 더 큼(한국 적용 시 주의).",
+   "links_existing": [
+    "Cialdini:사회적 증거",
+    "Munger:#15 사회적 증거"
+   ]
+  },
+  {
+   "id": "theory.spiral_silence",
+   "type": "theory",
+   "name": "Spiral of silence",
+   "name_ko": "침묵의 나선",
+   "evidence_grade": "B",
+   "sources": [
+    "NOELLE1974",
+    "GLYNN1997",
+    "MATTHES2018"
+   ],
+   "summary": "다수 의견이라고 느끼면 말하기 쉬움. 메타분석상 효과는 작음.",
+   "links_existing": [
+    "Cialdini:사회적 증거"
+   ],
+   "effect_size": "소(r≈0.05~0.1 수준)"
+  },
+  {
+   "id": "theory.illusory_truth",
+   "type": "theory",
+   "name": "Illusory truth effect",
+   "name_ko": "환상적 진실 효과(반복=진실감)",
+   "evidence_grade": "A",
+   "sources": [
+    "DECHENE2010",
+    "FAZIO2015",
+    "HASSAN2021"
+   ],
+   "summary": "반복된 말은 더 참으로 느낌. 알고 있는 지식도 완전히 막지 못함. 두 번째 노출에서 가장 크게 오름.",
+   "links_existing": [
+    "Munger:#18 가용성 오판",
+    "Munger:#10 단순 연관"
+   ],
+   "effect_size": "중(d≈0.4~0.5)",
+   "misuse_risk": "거짓을 반복해 진실처럼 보이게 함 → 정치 선전의 핵심 무기"
+  },
+  {
+   "id": "theory.minimal_effects",
+   "type": "theory",
+   "name": "Minimal campaign persuasion effects",
+   "name_ko": "선거 캠페인 최소 효과",
+   "evidence_grade": "A",
+   "sources": [
+    "KALLA2018",
+    "COPPOCK2020",
+    "HEWITT2024"
+   ],
+   "summary": "본선 선거 막판 접촉·광고의 설득 효과는 평균 거의 0에 가까움.",
+   "effect_size": "본선 평균 ≈0; 광고는 아주 작음"
+  },
+  {
+   "id": "theory.persuasion_parallel",
+   "type": "theory",
+   "name": "Persuasion in parallel",
+   "name_ko": "평행 설득",
+   "evidence_grade": "A",
+   "sources": [
+    "COPPOCK2023",
+    "TAPPIN2023",
+    "GUESS2020",
+    "WOOD2019"
+   ],
+   "summary": "정보는 거의 모든 집단(지지자·반대자)을 같은 방향으로 비슷한 크기로 움직임. 역효과(backfire)는 드묾.",
+   "links_existing": [
+    "Munger:#5 불일치 회피(한계)"
+   ]
+  },
+  {
+   "id": "theory.fogg",
+   "type": "theory",
+   "name": "Fogg Behavior Model",
+   "name_ko": "포그 행동 모델(B=MAP)",
+   "evidence_grade": "C",
+   "sources": [
+    "FOGG2009"
+   ],
+   "summary": "행동=동기×능력×촉발. 실무 모델, 실증 검증은 제한적."
+  },
+  {
+   "id": "theory.nudge",
+   "type": "theory",
+   "name": "Nudge / choice architecture",
+   "name_ko": "넛지·선택 설계",
+   "evidence_grade": "B",
+   "sources": [
+    "THALER2008",
+    "MERTENS2022",
+    "MAIER2022",
+    "DELLAV2022"
+   ],
+   "summary": "학술 논문 효과(8.7%p)보다 현장 규모 효과(1.4%p)가 훨씬 작음. 출판 편향 보정 시 효과 소멸 주장도.",
+   "effect_size": "현장 nudge unit 평균 1.4%p(상대 8.1%)"
+  },
+  {
+   "id": "theory.manipulation_def",
+   "type": "theory",
+   "name": "Manipulation as hidden/bypassing influence",
+   "name_ko": "조작의 정의",
+   "evidence_grade": "B",
+   "sources": [
+    "SUSSER2019",
+    "SUNSTEIN2016"
+   ],
+   "summary": "조작=숨겨진 영향, 상대의 숙고 능력을 우회·약점을 이용. 설득=이유를 드러내고 판단을 존중."
+  },
+  {
+   "id": "theory.tares",
+   "type": "theory",
+   "name": "TARES test",
+   "name_ko": "TARES 윤리 검사",
+   "evidence_grade": "B",
+   "sources": [
+    "BAKER2001"
+   ],
+   "summary": "진실성·진정성·존중·형평·사회적 책임 5개 점검."
+  },
+  {
+   "id": "technique.unity",
+   "type": "technique",
+   "name": "Unity",
+   "name_ko": "연대감(우리)",
+   "evidence_grade": "B",
+   "sources": [
+    "CIAL2021",
+    "MOGAN2017"
+   ],
+   "summary": "\"우리\"라는 공유 정체성. 동기화된 행동(같이 움직이기)은 친사회성 증가.",
+   "links_existing": [
+    "Cialdini:연대감"
+   ]
+  },
+  {
+   "id": "technique.deep_canvassing",
+   "type": "technique",
+   "name": "Deep canvassing (non-judgmental exchange of narratives)",
+   "name_ko": "심층 대화(판단 없는 이야기 교환)",
+   "evidence_grade": "B",
+   "sources": [
+    "BROOCKMAN2016",
+    "KALLA2020",
+    "KALLA2023"
+   ],
+   "summary": "10분 대화로 편견을 줄이고 수개월 지속. 논증만 있는 버전은 효과 없음, 이야기 교환이 핵심.",
+   "links_existing": [
+    "Cialdini:호감",
+    "Cialdini:연대감"
+   ],
+   "effect_size": "소규모지만 3~4개월 지속"
+  },
+  {
+   "id": "technique.moral_reframing",
+   "type": "technique",
+   "name": "Moral reframing",
+   "name_ko": "도덕 재구성",
+   "evidence_grade": "B",
+   "sources": [
+    "FEINBERG2015",
+    "FEINBERG2019"
+   ],
+   "summary": "상대의 도덕 가치로 메시지를 다시 짜면 설득력 증가.",
+   "links_existing": [
+    "Cialdini:연대감"
+   ]
+  },
+  {
+   "id": "technique.two_sided_refutational",
+   "type": "technique",
+   "name": "Two-sided refutational message",
+   "name_ko": "양면 반박 메시지",
+   "evidence_grade": "A",
+   "sources": [
+    "OKEEFE1999"
+   ],
+   "summary": "반대 논거를 말하고 반박하면 일면 메시지보다 설득력 높음. 반박 없는 양면은 오히려 약함.",
+   "links_existing": [
+    "Munger:#24 이유 존중"
+   ]
+  },
+  {
+   "id": "technique.evidence",
+   "type": "technique",
+   "name": "Evidence / information density",
+   "name_ko": "증거·정보 밀도",
+   "evidence_grade": "A",
+   "sources": [
+    "REINARD1988",
+    "HACKEN2025B",
+    "LIN2025",
+    "COSTELLO2025"
+   ],
+   "summary": "구체적 사실·증거가 많을수록 설득. AI 설득의 핵심 기제도 정보 밀도.",
+   "links_existing": [
+    "Munger:#24 이유 존중"
+   ],
+   "misuse_risk": "정보량을 늘리려 할수록 정확도 하락(설득-정확도 상충)"
+  },
+  {
+   "id": "technique.byaf",
+   "type": "technique",
+   "name": "But You Are Free",
+   "name_ko": "\"선택은 자유입니다\"",
+   "evidence_grade": "A",
+   "sources": [
+    "CARPENTER2013"
+   ],
+   "summary": "요청 끝에 자유를 강조하면 승낙 확률 약 2배(메타분석 OR≈2).",
+   "links_existing": [
+    "Defense:반발 완화"
+   ],
+   "effect_size": "OR≈2"
+  },
+  {
+   "id": "technique.ditf",
+   "type": "technique",
+   "name": "Door-in-the-face",
+   "name_ko": "큰 요청 후 작은 요청",
+   "evidence_grade": "B",
+   "sources": [
+    "FEELEY2012"
+   ],
+   "summary": "언어적 승낙엔 효과, 실제 행동 승낙엔 약함.",
+   "links_existing": [
+    "Cialdini:상호성",
+    "Munger:#9 상호성",
+    "Munger:#16 대조"
+   ]
+  },
+  {
+   "id": "technique.fitd",
+   "type": "technique",
+   "name": "Foot-in-the-door",
+   "name_ko": "작은 요청 후 큰 요청",
+   "evidence_grade": "B",
+   "sources": [
+    "BURGER1999"
+   ],
+   "summary": "효과는 있으나 작고 조건 의존적.",
+   "links_existing": [
+    "Cialdini:일관성",
+    "Munger:#5 불일치 회피"
+   ]
+  },
+  {
+   "id": "technique.reason_because",
+   "type": "technique",
+   "name": "Giving a reason (\"because\")",
+   "name_ko": "이유 대기",
+   "evidence_grade": "C",
+   "sources": [
+    "LANGER1978"
+   ],
+   "summary": "작은 부탁에선 빈 이유도 통함(복사기 실험). 큰 부탁에선 진짜 이유 필요.",
+   "links_existing": [
+    "Munger:#24 이유 존중"
+   ],
+   "misuse_risk": "가짜 이유(placebic)로 승낙 유도"
+  },
+  {
+   "id": "technique.social_norms",
+   "type": "technique",
+   "name": "Descriptive social norms feedback",
+   "name_ko": "사회 규범 피드백",
+   "evidence_grade": "A",
+   "sources": [
+    "ALLCOTT2011",
+    "HALLS2017",
+    "HALLS2016"
+   ],
+   "summary": "\"이웃/동료 대비\" 비교 피드백: 에너지 약 2% 절감, 세금 납부 증가, 항생제 처방 감소. 현장 RCT로 재현.",
+   "links_existing": [
+    "Cialdini:사회적 증거",
+    "Munger:#15"
+   ]
+  },
+  {
+   "id": "technique.default",
+   "type": "technique",
+   "name": "Defaults",
+   "name_ko": "기본값 설정",
+   "evidence_grade": "A",
+   "sources": [
+    "JACHIM2019",
+    "JOHNSON2003"
+   ],
+   "summary": "기본값 효과 d≈0.68. 장기기증 옵트아웃 사례.",
+   "misuse_risk": "불리한 기본값=다크패턴"
+  },
+  {
+   "id": "technique.implementation_intention",
+   "type": "technique",
+   "name": "Implementation intentions",
+   "name_ko": "실행 의도(\"언제·어디서·어떻게\")",
+   "evidence_grade": "A",
+   "sources": [
+    "SHEERAN2025",
+    "HACKEN2026"
+   ],
+   "summary": "구체 계획 세우기가 목표 달성 증가(642개 검증 메타분석). AI 정치 행동 유도에서도 효과적.",
+   "links_existing": [
+    "Cialdini:일관성"
+   ]
+  },
+  {
+   "id": "technique.direct_ask",
+   "type": "technique",
+   "name": "Direct ask / commitment escalation",
+   "name_ko": "직접 요청·약속 단계 높이기",
+   "evidence_grade": "B",
+   "sources": [
+    "HACKEN2026"
+   ],
+   "summary": "행동(서명) 변화는 정보가 아니라 직접 요청·관여에서 나옴. 태도 변화와 행동 변화는 상관 없음.",
+   "links_existing": [
+    "Cialdini:일관성"
+   ]
+  },
+  {
+   "id": "technique.reminder_text",
+   "type": "technique",
+   "name": "Reminder messages (\"reserved for you\")",
+   "name_ko": "문자 알림(예약됨 표현)",
+   "evidence_grade": "A",
+   "sources": [
+    "MILKMAN2021",
+    "SACCARDO2024"
+   ],
+   "summary": "\"백신이 예약되어 있습니다\" 문자 최상. 단 다른 맥락으로 옮기면 효과 감소.",
+   "links_existing": [
+    "Cialdini:일관성",
+    "Munger:#13 소유 효과"
+   ]
+  },
+  {
+   "id": "technique.mi",
+   "type": "technique",
+   "name": "Motivational interviewing",
+   "name_ko": "동기강화상담",
+   "evidence_grade": "A",
+   "sources": [
+    "MILLER2023",
+    "LUNDAHL2010",
+    "LUNDAHL2013",
+    "RUBAK2005"
+   ],
+   "summary": "공감·반영·변화대화 유도. 효과 작지만 일관(g≈0.2대).",
+   "links_existing": [
+    "Cialdini:호감",
+    "Defense:반발 완화"
+   ]
+  },
+  {
+   "id": "technique.sdm",
+   "type": "technique",
+   "name": "Shared decision making & decision aids",
+   "name_ko": "공유 의사결정·결정보조도구",
+   "evidence_grade": "A",
+   "sources": [
+    "ELWYN2012",
+    "STACEY2024"
+   ],
+   "summary": "지식↑, 위험 인식 정확↑, 결정 갈등↓, 가치에 맞는 선택↑.",
+   "links_existing": [
+    "FactGate"
+   ]
+  },
+  {
+   "id": "technique.teach_back",
+   "type": "technique",
+   "name": "Teach-back",
+   "name_ko": "되말하기 확인",
+   "evidence_grade": "B",
+   "sources": [
+    "SCHILL2003",
+    "TALEVSKI2020"
+   ],
+   "summary": "환자가 자기 말로 설명하게 해 이해 확인.",
+   "links_existing": [
+    "PDF:read-back"
+   ]
+  },
+  {
+   "id": "technique.empathic_comm",
+   "type": "technique",
+   "name": "Empathic clinician communication",
+   "name_ko": "공감적 진료 소통",
+   "evidence_grade": "B",
+   "sources": [
+    "ZOLNIEREK2009",
+    "HOWICK2018",
+    "KELLEY2014"
+   ],
+   "summary": "의사 소통 나쁘면 비순응 위험 19%↑, 소통 교육 시 순응 승산 1.62배.",
+   "links_existing": [
+    "Cialdini:호감"
+   ]
+  },
+  {
+   "id": "technique.fear_efficacy",
+   "type": "technique",
+   "name": "Fear appeal + efficacy",
+   "name_ko": "공포 소구+실행 가능성",
+   "evidence_grade": "A",
+   "sources": [
+    "TANNEN2015",
+    "WITTE2000"
+   ],
+   "summary": "공포 소구는 대체로 효과(d≈0.29). 효능감(할 수 있다) 메시지를 같이 줘야.",
+   "links_existing": [
+    "Munger:#17 스트레스",
+    "Munger:#14"
+   ],
+   "misuse_risk": "효능감 없이 공포만→회피·부정"
+  },
+  {
+   "id": "technique.loss_frame",
+   "type": "technique",
+   "name": "Loss vs gain framing in health",
+   "name_ko": "손실/이득 프레임(건강)",
+   "evidence_grade": "A",
+   "sources": [
+    "OKEEFE2007",
+    "OKEEFE2009",
+    "GAL2018"
+   ],
+   "summary": "건강 메시지에서 손실·이득 프레임 차이는 거의 없음. \"손실 프레임이 항상 강하다\"는 통념은 근거 약함.",
+   "links_existing": [
+    "Cialdini:희귀성"
+   ]
+  },
+  {
+   "id": "technique.accuracy_prompt",
+   "type": "technique",
+   "name": "Accuracy prompt",
+   "name_ko": "정확성 환기",
+   "evidence_grade": "B",
+   "sources": [
+    "PENNY2021"
+   ],
+   "summary": "공유 전 \"정확한가?\" 생각하게 하면 허위정보 공유 감소.",
+   "links_existing": [
+    "Defense:두 트랙"
+   ]
+  },
+  {
+   "id": "technique.affect_labeling",
+   "type": "technique",
+   "name": "Affect labeling (\"tactical empathy\" label)",
+   "name_ko": "감정 이름 붙이기",
+   "evidence_grade": "B",
+   "sources": [
+    "LIEBERMAN2007",
+    "VOSS2016"
+   ],
+   "summary": "감정을 말로 표현하면 편도체 반응 감소 — Voss의 \"라벨링\"의 근거 부분."
+  },
+  {
+   "id": "technique.perspective_taking",
+   "type": "technique",
+   "name": "Perspective-taking in negotiation",
+   "name_ko": "관점 수용",
+   "evidence_grade": "B",
+   "sources": [
+    "GALINSKY2008",
+    "GALINSKY2001",
+    "FISHER1981"
+   ],
+   "summary": "상대 머리로 생각(관점 수용)이 공감보다 협상 결과에 유리. 첫 제안은 앵커.",
+   "links_existing": [
+    "Munger:#16 대조"
+   ]
+  },
+  {
+   "id": "technique.mimicry",
+   "type": "technique",
+   "name": "Strategic mimicry",
+   "name_ko": "전략적 모방",
+   "evidence_grade": "C",
+   "sources": [
+    "MADDUX2008"
+   ],
+   "summary": "협상 중 모방이 합의율 증가(소수 연구).",
+   "links_existing": [
+    "Cialdini:호감"
+   ]
+  },
+  {
+   "id": "technique.ai_dialogue",
+   "type": "technique",
+   "name": "AI dialogue persuasion",
+   "name_ko": "AI 대화 설득",
+   "evidence_grade": "B",
+   "sources": [
+    "COSTELLO2024",
+    "BOISSIN2025",
+    "SALVI2025",
+    "BAI2025",
+    "HACKEN2025A",
+    "HACKEN2026B",
+    "SCHOEN2025",
+    "GOLDSTEIN2024"
+   ],
+   "summary": "LLM 대화는 음모론 신념을 약 20% 줄이고 2개월 지속; 정책 태도는 인간 수준으로 이동; 전문가 인간보다 설득적이라는 보고.",
+   "misuse_risk": "대량·저비용 선전, 부정확 주장 증가"
+  },
+  {
+   "id": "technique.microtargeting",
+   "type": "technique",
+   "name": "(AI) Microtargeting",
+   "name_ko": "마이크로타기팅",
+   "evidence_grade": "C",
+   "sources": [
+    "HACKEN2024",
+    "TAPPIN2023B",
+    "SIMCHON2024",
+    "MATZ2024",
+    "HACKEN2025B"
+   ],
+   "summary": "개인 맞춤 효과는 작거나 불확실(+0.4%p 수준). 과대평가 주의.",
+   "misuse_risk": "개인정보 추론 후 맞춤 조작"
+  },
+  {
+   "id": "technique.kotter",
+   "type": "technique",
+   "name": "Kotter 8-step change",
+   "name_ko": "코터 8단계 변화관리",
+   "evidence_grade": "C",
+   "sources": [
+    "KOTTER1995",
+    "APPEL2012"
+   ],
+   "summary": "실무 영향 크지만 직접 실증은 부족."
+  },
+  {
+   "id": "bias.persuasion_accuracy_tradeoff",
+   "type": "bias",
+   "name": "Persuasion–accuracy tradeoff",
+   "name_ko": "설득-정확도 상충",
+   "evidence_grade": "B",
+   "sources": [
+    "HACKEN2025B",
+    "LIN2025",
+    "SCHOEN2025"
+   ],
+   "summary": "설득력을 높이는 기법일수록 사실 정확도가 떨어짐 (AI 실험에서 체계적 관찰).",
+   "links_existing": [
+    "FactGate"
+   ]
+  },
+  {
+   "id": "bias.attitude_behavior_gap",
+   "type": "bias",
+   "name": "Attitude–behavior gap in persuasion",
+   "name_ko": "태도-행동 간극",
+   "evidence_grade": "B",
+   "sources": [
+    "HACKEN2026"
+   ],
+   "summary": "태도 설득 효과와 행동 효과가 상관없음 → 태도 바뀌었다고 행동 안 함."
+  },
+  {
+   "id": "bias.bandwagon",
+   "type": "bias",
+   "name": "Bandwagon effect",
+   "name_ko": "밴드왜건 효과",
+   "evidence_grade": "C",
+   "sources": [
+    "BARNFIELD2020",
+    "ROTHSCHILD2014"
+   ],
+   "summary": "여론조사가 의견을 다수 쪽으로 약간 끌어당김. 개념 혼란, 증거 혼재.",
+   "links_existing": [
+    "Cialdini:사회적 증거",
+    "Munger:#15"
+   ]
+  },
+  {
+   "id": "bias.negativity_campaign",
+   "type": "bias",
+   "name": "Negative campaigning",
+   "name_ko": "네거티브 캠페인",
+   "evidence_grade": "A",
+   "sources": [
+    "LAU2007"
+   ],
+   "summary": "네거티브는 득표에 더 효과적이지 않고, 정치 신뢰·효능감을 해침.",
+   "misuse_risk": "단기 승리 착각, 공동체 신뢰 훼손"
+  },
+  {
+   "id": "defense.prebunk",
+   "type": "defense",
+   "name": "Prebunking",
+   "name_ko": "사전 반박",
+   "evidence_grade": "A",
+   "sources": [
+    "ROOZ2022",
+    "BANAS2010",
+    "MODIR2023"
+   ],
+   "summary": "조작 기법을 미리 알려줌. 일반 의심 증가 부작용 점검 필요."
+  },
+  {
+   "id": "defense.correction",
+   "type": "defense",
+   "name": "Debunking / correction",
+   "name_ko": "사후 정정",
+   "evidence_grade": "A",
+   "sources": [
+    "WALTER2018",
+    "CHAN2017",
+    "ECKER2022",
+    "NYHAN2021"
+   ],
+   "summary": "정정은 효과 있지만 완전히 지우지 못함(지속 영향). 상세한 반박이 더 효과.",
+   "effect_size": "Chan 2017: 정정 d≈1.14, 잔존 d≈0.75"
+  },
+  {
+   "id": "defense.reactance_soften",
+   "type": "defense",
+   "name": "Reactance softening",
+   "name_ko": "반발 완화",
+   "evidence_grade": "A",
+   "sources": [
+    "RAINS2013",
+    "CARPENTER2013"
+   ],
+   "summary": "명령어·통제 언어 대신 자율 강조."
+  },
+  {
+   "id": "defense.dark_pattern_audit",
+   "type": "defense",
+   "name": "Dark pattern audit",
+   "name_ko": "다크패턴 점검",
+   "evidence_grade": "B",
+   "sources": [
+    "MATHUR2019",
+    "GRAY2018",
+    "LUGURI2021",
+    "FTC2022",
+    "DSA2022"
+   ],
+   "summary": "숨은 비용·해지 방해·가짜 희소성·잔소리·강제 행동 점검. 약한 다크패턴도 가입률 2배."
+  },
+  {
+   "id": "defense.informed_consent",
+   "type": "defense",
+   "name": "Informed consent standard",
+   "name_ko": "설명 동의 기준",
+   "evidence_grade": "B",
+   "sources": [
+    "MONTGOMERY2015",
+    "KRMEDLAW",
+    "BLUMEN2012"
+   ],
+   "summary": "환자 입장에서 중요한 위험을 설명(Montgomery 기준), 한국 의료법 제24조의2 서면 설명·동의."
+  },
+  {
+   "id": "study.backfire_2010",
+   "type": "study",
+   "name": "When corrections fail (backfire)",
+   "name_ko": "정정 역효과 원연구",
+   "evidence_grade": "D",
+   "sources": [
+    "NYHAN2010",
+    "WOOD2019",
+    "SWIRE2020"
+   ],
+   "summary": "정정이 오히려 믿음 강화 → 이후 대규모 재현에서 거의 없음."
+  },
+  {
+   "id": "study.ego_depletion",
+   "type": "study",
+   "name": "Ego depletion",
+   "name_ko": "자아 고갈",
+   "evidence_grade": "D",
+   "sources": [
+    "HAGGER2016",
+    "VOHS2021"
+   ],
+   "summary": "의지력 고갈 효과는 다기관 사전등록 재현에서 거의 0.",
+   "effect_size": "d≈0.04~0.06"
+  },
+  {
+   "id": "study.behavioral_priming",
+   "type": "study",
+   "name": "Behavioral/money priming",
+   "name_ko": "행동·돈 점화",
+   "evidence_grade": "D",
+   "sources": [
+    "DOYEN2012",
+    "ROHRER2015",
+    "KLEIN2014"
+   ],
+   "summary": "노인 단어→느린 걸음, 돈 점화 → 재현 실패. 초전설득의 일부 점화 주장 주의.",
+   "links_existing": [
+    "Cialdini:초전 설득(주의)"
+   ]
+  },
+  {
+   "id": "study.replication",
+   "type": "study",
+   "name": "Replication projects",
+   "name_ko": "재현 프로젝트",
+   "evidence_grade": "A",
+   "sources": [
+    "OSC2015",
+    "KLEIN2014",
+    "KLEIN2018"
+   ],
+   "summary": "심리학 100편 중 약 36% 유의 재현, 효과 크기 절반."
+  },
+  {
+   "id": "study.milgram_rep",
+   "type": "study",
+   "name": "Milgram partial replication",
+   "name_ko": "밀그램 부분 재현",
+   "evidence_grade": "B",
+   "sources": [
+    "BURGER2009"
+   ],
+   "summary": "150V 지점 기준 복종률 여전히 높음(70%).",
+   "links_existing": [
+    "Cialdini:권위",
+    "Munger:#22"
+   ]
+  },
+  {
+   "id": "study.ai_petition_2026",
+   "type": "study",
+   "name": "AI persuades political action (UK)",
+   "name_ko": "AI 정치 행동 설득",
+   "evidence_grade": "B",
+   "sources": [
+    "HACKEN2026"
+   ],
+   "summary": "청원 서명 약 19.7%p 증가. 정보 전략은 태도엔 크지만 행동엔 가장 작음."
+  },
+  {
+   "id": "study.ai_levers_2025",
+   "type": "study",
+   "name": "Levers of AI political persuasion",
+   "name_ko": "AI 설득의 지렛대",
+   "evidence_grade": "B",
+   "sources": [
+    "HACKEN2025B"
+   ],
+   "summary": "N=76,977. 사후훈련 +51%, 프롬프트 +27%, 개인화 미미, 정보 밀도가 기제, 정확도 하락."
+  },
+  {
+   "id": "study.ai_voters_2025",
+   "type": "study",
+   "name": "AI dialogues and voters",
+   "name_ko": "AI 대화와 유권자",
+   "evidence_grade": "B",
+   "sources": [
+    "LIN2025"
+   ],
+   "summary": "미·캐·폴 선거. 미국 3.9점(광고의 ~4배), 캐나다·폴란드 ~10점. 사실 차단 시 효과 크게 감소."
+  },
+  {
+   "id": "case.cmv_zurich",
+   "type": "case",
+   "name": "Reddit r/changemyview unconsented AI experiment",
+   "name_ko": "취리히대 무동의 AI 레딧 실험",
+   "evidence_grade": "C",
+   "sources": [
+    "CMV2025"
+   ],
+   "summary": "34개 계정 1,500건 이상 AI 댓글, 정체성 사칭·개인정보 추론. 동의 없음→윤리 위반, 결과 비공개.",
+   "misuse_risk": "사칭+맞춤 조작의 실제 사례"
+  },
+  {
+   "id": "case.opower",
+   "type": "case",
+   "name": "Opower home energy reports",
+   "name_ko": "오파워 에너지 보고서",
+   "evidence_grade": "A",
+   "sources": [
+    "ALLCOTT2011"
+   ],
+   "summary": "이웃 비교로 전력 약 2% 감소, 대규모 현장 효과."
+  },
+  {
+   "id": "case.uk_antibiotics",
+   "type": "case",
+   "name": "UK antibiotic prescribing letter",
+   "name_ko": "영국 항생제 처방 편지",
+   "evidence_grade": "A",
+   "sources": [
+    "HALLS2016"
+   ],
+   "summary": "최고처방의 GP에게 \"동료 80%보다 많다\" 편지 → 처방 감소. 병원 경영 적용 직결."
+  },
+  {
+   "id": "case.flu_megastudy",
+   "type": "case",
+   "name": "Flu vaccine text megastudy",
+   "name_ko": "독감 백신 문자 메가연구",
+   "evidence_grade": "A",
+   "sources": [
+    "MILKMAN2021"
+   ],
+   "summary": "약 4.7만 명 대상, 여러 문자 메시지를 한 번에 비교. \"백신이 예약되어 있습니다\" 표현이 가장 효과적."
+  }
+ ],
+ "triples": [
+  {
+   "subject": "theory.persuasion_parallel",
+   "predicate": "contradicts",
+   "object": "study.backfire_2010",
+   "sources": [
+    "WOOD2019",
+    "GUESS2020"
+   ]
+  },
+  {
+   "subject": "defense.correction",
+   "predicate": "contradicts",
+   "object": "study.backfire_2010",
+   "sources": [
+    "NYHAN2021",
+    "SWIRE2020"
+   ]
+  },
+  {
+   "subject": "theory.illusory_truth",
+   "predicate": "counters",
+   "object": "technique.evidence",
+   "sources": [
+    "FAZIO2015"
+   ]
+  },
+  {
+   "subject": "technique.evidence",
+   "predicate": "requires_fact",
+   "object": "FactGate",
+   "sources": [
+    "HACKEN2025B",
+    "COSTELLO2025"
+   ]
+  },
+  {
+   "subject": "bias.persuasion_accuracy_tradeoff",
+   "predicate": "supports",
+   "object": "FactGate",
+   "sources": [
+    "HACKEN2025B",
+    "LIN2025"
+   ]
+  },
+  {
+   "subject": "technique.deep_canvassing",
+   "predicate": "extends",
+   "object": "technique.unity",
+   "sources": [
+    "KALLA2020"
+   ]
+  },
+  {
+   "subject": "technique.moral_reframing",
+   "predicate": "extends",
+   "object": "theory.mft",
+   "sources": [
+    "FEINBERG2015"
+   ]
+  },
+  {
+   "subject": "theory.elm",
+   "predicate": "extends",
+   "object": "theory.hsm",
+   "sources": [
+    "PETTY1986",
+    "CHAIKEN1980"
+   ]
+  },
+  {
+   "subject": "theory.reactance",
+   "predicate": "counters",
+   "object": "technique.byaf",
+   "sources": [
+    "CARPENTER2013"
+   ]
+  },
+  {
+   "subject": "technique.byaf",
+   "predicate": "counters",
+   "object": "theory.reactance",
+   "sources": [
+    "CARPENTER2013"
+   ]
+  },
+  {
+   "subject": "defense.prebunk",
+   "predicate": "extends",
+   "object": "theory.inoculation",
+   "sources": [
+    "MCGUIRE1961",
+    "ROOZ2022"
+   ]
+  },
+  {
+   "subject": "theory.pkm",
+   "predicate": "supports",
+   "object": "defense.prebunk",
+   "sources": [
+    "FRIESTAD1994"
+   ]
+  },
+  {
+   "subject": "theory.motivated_reasoning",
+   "predicate": "contradicts",
+   "object": "theory.persuasion_parallel",
+   "sources": [
+    "KAHAN2012",
+    "COPPOCK2023"
+   ]
+  },
+  {
+   "subject": "theory.minimal_effects",
+   "predicate": "contradicts",
+   "object": "study.ai_voters_2025",
+   "sources": [
+    "KALLA2018",
+    "LIN2025"
+   ]
+  },
+  {
+   "subject": "study.ai_petition_2026",
+   "predicate": "supports",
+   "object": "bias.attitude_behavior_gap",
+   "sources": [
+    "HACKEN2026"
+   ]
+  },
+  {
+   "subject": "technique.direct_ask",
+   "predicate": "supports",
+   "object": "technique.implementation_intention",
+   "sources": [
+    "HACKEN2026",
+    "SHEERAN2025"
+   ]
+  },
+  {
+   "subject": "technique.microtargeting",
+   "predicate": "contradicts",
+   "object": "technique.ai_dialogue",
+   "sources": [
+    "HACKEN2025B"
+   ]
+  },
+  {
+   "subject": "theory.nudge",
+   "predicate": "supports",
+   "object": "technique.default",
+   "sources": [
+    "JACHIM2019"
+   ]
+  },
+  {
+   "subject": "study.replication",
+   "predicate": "contradicts",
+   "object": "study.ego_depletion",
+   "sources": [
+    "HAGGER2016"
+   ]
+  },
+  {
+   "subject": "study.replication",
+   "predicate": "contradicts",
+   "object": "study.behavioral_priming",
+   "sources": [
+    "KLEIN2014"
+   ]
+  },
+  {
+   "subject": "study.behavioral_priming",
+   "predicate": "contradicts",
+   "object": "Cialdini:초전 설득(점화 부분)",
+   "sources": [
+    "DOYEN2012"
+   ]
+  },
+  {
+   "subject": "technique.loss_frame",
+   "predicate": "contradicts",
+   "object": "theory.prospect(메시지 적용 통념)",
+   "sources": [
+    "OKEEFE2009"
+   ]
+  },
+  {
+   "subject": "technique.social_norms",
+   "predicate": "extends",
+   "object": "Cialdini:사회적 증거",
+   "sources": [
+    "ALLCOTT2011"
+   ]
+  },
+  {
+   "subject": "theory.conformity",
+   "predicate": "extends",
+   "object": "Munger:#15 사회적 증거 경향",
+   "sources": [
+    "BOND1996"
+   ]
+  },
+  {
+   "subject": "technique.fear_efficacy",
+   "predicate": "requires_fact",
+   "object": "FactGate",
+   "sources": [
+    "WITTE2000"
+   ]
+  },
+  {
+   "subject": "technique.sdm",
+   "predicate": "supports",
+   "object": "defense.informed_consent",
+   "sources": [
+    "STACEY2024"
+   ]
+  },
+  {
+   "subject": "technique.teach_back",
+   "predicate": "extends",
+   "object": "PDF:read-back",
+   "sources": [
+    "TALEVSKI2020"
+   ]
+  },
+  {
+   "subject": "defense.dark_pattern_audit",
+   "predicate": "counters",
+   "object": "technique.default",
+   "sources": [
+    "LUGURI2021"
+   ]
+  },
+  {
+   "subject": "theory.manipulation_def",
+   "predicate": "supports",
+   "object": "defense.dark_pattern_audit",
+   "sources": [
+    "SUSSER2019",
+    "SUNSTEIN2016"
+   ]
+  },
+  {
+   "subject": "theory.tares",
+   "predicate": "supports",
+   "object": "FactGate",
+   "sources": [
+    "BAKER2001"
+   ]
+  },
+  {
+   "subject": "case.cmv_zurich",
+   "predicate": "contradicts",
+   "object": "theory.tares",
+   "sources": [
+    "CMV2025"
+   ]
+  },
+  {
+   "subject": "bias.negativity_campaign",
+   "predicate": "contradicts",
+   "object": "theory.minimal_effects",
+   "sources": [
+    "LAU2007"
+   ]
+  },
+  {
+   "subject": "theory.affective_polarization",
+   "predicate": "extends",
+   "object": "technique.unity",
+   "sources": [
+    "IYENGAR2012"
+   ]
+  },
+  {
+   "subject": "technique.two_sided_refutational",
+   "predicate": "supports",
+   "object": "FactGate",
+   "sources": [
+    "OKEEFE1999"
+   ]
+  },
+  {
+   "subject": "technique.ditf",
+   "predicate": "extends",
+   "object": "Munger:#9 상호성 경향",
+   "sources": [
+    "FEELEY2012"
+   ]
+  },
+  {
+   "subject": "study.milgram_rep",
+   "predicate": "supports",
+   "object": "Munger:#22 권위 오판 경향",
+   "sources": [
+    "BURGER2009"
+   ]
+  },
+  {
+   "subject": "technique.reason_because",
+   "predicate": "supports",
+   "object": "Munger:#24 이유 존중 경향",
+   "sources": [
+    "LANGER1978"
+   ]
+  },
+  {
+   "subject": "theory.illusory_truth",
+   "predicate": "supports",
+   "object": "Munger:#18 가용성 오판 경향",
+   "sources": [
+    "DECHENE2010"
+   ]
+  },
+  {
+   "subject": "technique.affect_labeling",
+   "predicate": "supports",
+   "object": "technique.empathic_comm",
+   "sources": [
+    "LIEBERMAN2007"
+   ]
+  },
+  {
+   "subject": "theory.elm",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "PETTY1986",
+    "PETTY1981"
+   ]
+  },
+  {
+   "subject": "theory.hsm",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "CHAIKEN1980"
+   ]
+  },
+  {
+   "subject": "theory.prospect",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "KT1979",
+    "RUGGERI2020",
+    "BROWN2024"
+   ]
+  },
+  {
+   "subject": "theory.framing",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "TK1981"
+   ]
+  },
+  {
+   "subject": "theory.heuristics",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "TK1974",
+    "KLEIN2014"
+   ]
+  },
+  {
+   "subject": "theory.pkm",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "FRIESTAD1994"
+   ]
+  },
+  {
+   "subject": "theory.inoculation",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "MCGUIRE1961",
+    "BANAS2010",
+    "VDL2017",
+    "ROOZ2022",
+    "MODIR2023"
+   ]
+  },
+  {
+   "subject": "theory.transportation",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "GREEN2000",
+    "VANLAER2014",
+    "BRADDOCK2016"
+   ]
+  },
+  {
+   "subject": "theory.mft",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "GRAHAM2009"
+   ]
+  },
+  {
+   "subject": "theory.motivated_reasoning",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "KUNDA1990",
+    "KAHAN2012",
+    "KAHAN2017",
+    "TAPPIN2020"
+   ]
+  },
+  {
+   "subject": "theory.affective_polarization",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "IYENGAR2012",
+    "IYENGAR2019",
+    "VOELKEL2023",
+    "BROOCKMAN2023"
+   ]
+  },
+  {
+   "subject": "theory.reactance",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "BREHM1966",
+    "RAINS2013"
+   ]
+  },
+  {
+   "subject": "theory.conformity",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "ASCH1956",
+    "BOND1996",
+    "CIAL2004"
+   ]
+  },
+  {
+   "subject": "theory.spiral_silence",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "NOELLE1974",
+    "GLYNN1997",
+    "MATTHES2018"
+   ]
+  },
+  {
+   "subject": "theory.illusory_truth",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "DECHENE2010",
+    "FAZIO2015",
+    "HASSAN2021"
+   ]
+  },
+  {
+   "subject": "theory.minimal_effects",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "KALLA2018",
+    "COPPOCK2020",
+    "HEWITT2024"
+   ]
+  },
+  {
+   "subject": "theory.persuasion_parallel",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "COPPOCK2023",
+    "TAPPIN2023",
+    "GUESS2020",
+    "WOOD2019"
+   ]
+  },
+  {
+   "subject": "theory.fogg",
+   "predicate": "evidence_grade",
+   "object": "C",
+   "sources": [
+    "FOGG2009"
+   ]
+  },
+  {
+   "subject": "theory.nudge",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "THALER2008",
+    "MERTENS2022",
+    "MAIER2022",
+    "DELLAV2022"
+   ]
+  },
+  {
+   "subject": "theory.manipulation_def",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "SUSSER2019",
+    "SUNSTEIN2016"
+   ]
+  },
+  {
+   "subject": "theory.tares",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "BAKER2001"
+   ]
+  },
+  {
+   "subject": "technique.unity",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "CIAL2021",
+    "MOGAN2017"
+   ]
+  },
+  {
+   "subject": "technique.deep_canvassing",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "BROOCKMAN2016",
+    "KALLA2020",
+    "KALLA2023"
+   ]
+  },
+  {
+   "subject": "technique.moral_reframing",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "FEINBERG2015",
+    "FEINBERG2019"
+   ]
+  },
+  {
+   "subject": "technique.two_sided_refutational",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "OKEEFE1999"
+   ]
+  },
+  {
+   "subject": "technique.evidence",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "REINARD1988",
+    "HACKEN2025B",
+    "LIN2025",
+    "COSTELLO2025"
+   ]
+  },
+  {
+   "subject": "technique.byaf",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "CARPENTER2013"
+   ]
+  },
+  {
+   "subject": "technique.ditf",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "FEELEY2012"
+   ]
+  },
+  {
+   "subject": "technique.fitd",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "BURGER1999"
+   ]
+  },
+  {
+   "subject": "technique.reason_because",
+   "predicate": "evidence_grade",
+   "object": "C",
+   "sources": [
+    "LANGER1978"
+   ]
+  },
+  {
+   "subject": "technique.social_norms",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "ALLCOTT2011",
+    "HALLS2017",
+    "HALLS2016"
+   ]
+  },
+  {
+   "subject": "technique.default",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "JACHIM2019",
+    "JOHNSON2003"
+   ]
+  },
+  {
+   "subject": "technique.implementation_intention",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "SHEERAN2025",
+    "HACKEN2026"
+   ]
+  },
+  {
+   "subject": "technique.direct_ask",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "HACKEN2026"
+   ]
+  },
+  {
+   "subject": "technique.reminder_text",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "MILKMAN2021",
+    "SACCARDO2024"
+   ]
+  },
+  {
+   "subject": "technique.mi",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "MILLER2023",
+    "LUNDAHL2010",
+    "LUNDAHL2013",
+    "RUBAK2005"
+   ]
+  },
+  {
+   "subject": "technique.sdm",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "ELWYN2012",
+    "STACEY2024"
+   ]
+  },
+  {
+   "subject": "technique.teach_back",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "SCHILL2003",
+    "TALEVSKI2020"
+   ]
+  },
+  {
+   "subject": "technique.empathic_comm",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "ZOLNIEREK2009",
+    "HOWICK2018",
+    "KELLEY2014"
+   ]
+  },
+  {
+   "subject": "technique.fear_efficacy",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "TANNEN2015",
+    "WITTE2000"
+   ]
+  },
+  {
+   "subject": "technique.loss_frame",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "OKEEFE2007",
+    "OKEEFE2009",
+    "GAL2018"
+   ]
+  },
+  {
+   "subject": "technique.accuracy_prompt",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "PENNY2021"
+   ]
+  },
+  {
+   "subject": "technique.affect_labeling",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "LIEBERMAN2007",
+    "VOSS2016"
+   ]
+  },
+  {
+   "subject": "technique.perspective_taking",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "GALINSKY2008",
+    "GALINSKY2001",
+    "FISHER1981"
+   ]
+  },
+  {
+   "subject": "technique.mimicry",
+   "predicate": "evidence_grade",
+   "object": "C",
+   "sources": [
+    "MADDUX2008"
+   ]
+  },
+  {
+   "subject": "technique.ai_dialogue",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "COSTELLO2024",
+    "BOISSIN2025",
+    "SALVI2025",
+    "BAI2025",
+    "HACKEN2025A",
+    "HACKEN2026B",
+    "SCHOEN2025",
+    "GOLDSTEIN2024"
+   ]
+  },
+  {
+   "subject": "technique.microtargeting",
+   "predicate": "evidence_grade",
+   "object": "C",
+   "sources": [
+    "HACKEN2024",
+    "TAPPIN2023B",
+    "SIMCHON2024",
+    "MATZ2024",
+    "HACKEN2025B"
+   ]
+  },
+  {
+   "subject": "technique.kotter",
+   "predicate": "evidence_grade",
+   "object": "C",
+   "sources": [
+    "KOTTER1995",
+    "APPEL2012"
+   ]
+  },
+  {
+   "subject": "bias.persuasion_accuracy_tradeoff",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "HACKEN2025B",
+    "LIN2025",
+    "SCHOEN2025"
+   ]
+  },
+  {
+   "subject": "bias.attitude_behavior_gap",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "HACKEN2026"
+   ]
+  },
+  {
+   "subject": "bias.bandwagon",
+   "predicate": "evidence_grade",
+   "object": "C",
+   "sources": [
+    "BARNFIELD2020",
+    "ROTHSCHILD2014"
+   ]
+  },
+  {
+   "subject": "bias.negativity_campaign",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "LAU2007"
+   ]
+  },
+  {
+   "subject": "defense.prebunk",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "ROOZ2022",
+    "BANAS2010",
+    "MODIR2023"
+   ]
+  },
+  {
+   "subject": "defense.correction",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "WALTER2018",
+    "CHAN2017",
+    "ECKER2022",
+    "NYHAN2021"
+   ]
+  },
+  {
+   "subject": "defense.reactance_soften",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "RAINS2013",
+    "CARPENTER2013"
+   ]
+  },
+  {
+   "subject": "defense.dark_pattern_audit",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "MATHUR2019",
+    "GRAY2018",
+    "LUGURI2021",
+    "FTC2022",
+    "DSA2022"
+   ]
+  },
+  {
+   "subject": "defense.informed_consent",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "MONTGOMERY2015",
+    "KRMEDLAW",
+    "BLUMEN2012"
+   ]
+  },
+  {
+   "subject": "study.backfire_2010",
+   "predicate": "evidence_grade",
+   "object": "D",
+   "sources": [
+    "NYHAN2010",
+    "WOOD2019",
+    "SWIRE2020"
+   ]
+  },
+  {
+   "subject": "study.ego_depletion",
+   "predicate": "evidence_grade",
+   "object": "D",
+   "sources": [
+    "HAGGER2016",
+    "VOHS2021"
+   ]
+  },
+  {
+   "subject": "study.behavioral_priming",
+   "predicate": "evidence_grade",
+   "object": "D",
+   "sources": [
+    "DOYEN2012",
+    "ROHRER2015",
+    "KLEIN2014"
+   ]
+  },
+  {
+   "subject": "study.replication",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "OSC2015",
+    "KLEIN2014",
+    "KLEIN2018"
+   ]
+  },
+  {
+   "subject": "study.milgram_rep",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "BURGER2009"
+   ]
+  },
+  {
+   "subject": "study.ai_petition_2026",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "HACKEN2026"
+   ]
+  },
+  {
+   "subject": "study.ai_levers_2025",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "HACKEN2025B"
+   ]
+  },
+  {
+   "subject": "study.ai_voters_2025",
+   "predicate": "evidence_grade",
+   "object": "B",
+   "sources": [
+    "LIN2025"
+   ]
+  },
+  {
+   "subject": "case.cmv_zurich",
+   "predicate": "evidence_grade",
+   "object": "C",
+   "sources": [
+    "CMV2025"
+   ]
+  },
+  {
+   "subject": "case.opower",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "ALLCOTT2011"
+   ]
+  },
+  {
+   "subject": "case.uk_antibiotics",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "HALLS2016"
+   ]
+  },
+  {
+   "subject": "case.flu_megastudy",
+   "predicate": "evidence_grade",
+   "object": "A",
+   "sources": [
+    "MILKMAN2021"
+   ]
+  }
+ ]
+}

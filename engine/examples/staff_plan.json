@@ -1,0 +1,8 @@
+{"goal":"병동 간호사들이 고위험 약물 이중 확인을 실제로 지키게 하기","domain":"staff",
+ "audience":{"involvement":"unknown","role":"병동 간호사"},
+ "facts":[
+  {"claim":"지난 분기 고위험 약물 이중 확인 준수율 71%","source":"QI 감사 결과","verified":true,"kind":"statistic"},
+  {"claim":"우리 모두 환자 안전이라는 같은 목표를 가진 한 팀","source":"병원 미션(사실)","verified":true,"kind":"shared_identity"},
+  {"claim":"지난달 병동 요청으로 바코드 스캐너 2대를 먼저 추가 지원","source":"구매 기록","verified":true,"kind":"favor"},
+  {"claim":"이중 확인은 WHO 권고 고위험 약물 오류 예방책","source":"WHO 지침","verified":true,"kind":"reason"}],
+ "draft":"지난 분기 우리 병동 이중 확인 준수율은 71%였습니다. 이중 확인이 고위험 약물 오류를 막기 때문에 함께 높이고 싶습니다. 어떻게 하면 바쁜 시간에도 지킬 수 있을지 여러분의 조언을 구합니다."}

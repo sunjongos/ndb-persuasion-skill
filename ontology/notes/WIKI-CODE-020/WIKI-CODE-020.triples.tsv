@@ -1,0 +1,1005 @@
+subject	relation	object
+principle.cialdini_reciprocity	kb_kind	principle
+principle.cialdini_reciprocity	name_ko	상호성
+principle.cialdini_reciprocity	pillar	관계·신뢰
+principle.cialdini_reciprocity	part_of	concept.persuasion_misjudgment
+principle.cialdini_reciprocity	mechanism	[자료 내용] 받으면 갚으려는 의무감
+principle.cialdini_reciprocity	evidence_study	[자료 내용] 1971 Regan 콜라 실험(호의 받은 쪽 복권 구매 2배), 거절 후 양보(16.7%→50%) (원 연구 수치, 재현성 주의)
+principle.cialdini_reciprocity	misuse	[자료 내용] 밀수꾼: 원치 않는 샘플·선물로 빚 만들기
+principle.cialdini_reciprocity	ethical_use	[자료 내용] 탐정: 먼저 돕기(진짜 도움)
+principle.cialdini_reciprocity	hospital_use	[자료 내용] 직원·협력사에 먼저 실제 도움을 준다
+principle.cialdini_reciprocity	triggers	concept.munger_t09_reciprocity (상호성 경향, 자료 8쪽 연결선)
+principle.cialdini_reciprocity	defended_by	concept.defense_reclassify_gift (선물을 영업 기법으로 재분류하면 의무감이 사라진다)
+principle.cialdini_reciprocity	requires	fact:favor (상대에게 먼저 준 실제 도움·가치)
+principle.cialdini_reciprocity	cue	무료; 선물; 샘플; 사은품; 서비스로; 먼저 드리; 특별히 드리; 공짜; 드렸으니
+principle.cialdini_liking	kb_kind	principle
+principle.cialdini_liking	name_ko	호감
+principle.cialdini_liking	pillar	관계·신뢰
+principle.cialdini_liking	part_of	concept.persuasion_misjudgment
+principle.cialdini_liking	mechanism	[자료 내용] 좋아하는 사람의 요청을 더 잘 들어줌 (후광·유사성·칭찬·협력)
+principle.cialdini_liking	evidence_study	[자료 내용] 터퍼웨어 파티(친구 관계가 구매를 이끔) (원 연구 수치, 재현성 주의)
+principle.cialdini_liking	misuse	[자료 내용] 밀수꾼: 연출된 유사성, 아부
+principle.cialdini_liking	ethical_use	[자료 내용] 탐정: 진짜 공통점과 진심 어린 인정
+principle.cialdini_liking	hospital_use	[자료 내용] 환자·직원과 실제 공통점·진짜 칭찬만 쓴다
+principle.cialdini_liking	triggers	concept.munger_t02_liking (선호/애정 경향, 자료 8쪽 연결선)
+principle.cialdini_liking	triggers	concept.munger_t10_association (단순 연관 왜곡, 자료 8쪽 연결선)
+principle.cialdini_liking	defended_by	concept.defense_logic_filter (사람과 제안을 분리 평가)
+principle.cialdini_liking	requires	fact:shared_trait (실제 공통점·진심 어린 인정 근거)
+principle.cialdini_liking	cue	저도 같은; 고향; 동문; 동갑; 칭찬; 멋지; 팬입니다; 친구 소개; 잘생기; 예쁘
+principle.cialdini_unity	kb_kind	principle
+principle.cialdini_unity	name_ko	연대감
+principle.cialdini_unity	pillar	관계·신뢰
+principle.cialdini_unity	part_of	concept.persuasion_misjudgment
+principle.cialdini_unity	mechanism	[자료 내용] '우리'라는 공유 정체성 (함께 있음: 혈연·지역 / 함께 행동: 리듬·협업)
+principle.cialdini_unity	evidence_study	[자료 내용] 의견 대신 조언을 구하면 상대가 공동 저자가 된다 (원 연구 수치, 재현성 주의)
+principle.cialdini_unity	misuse	[자료 내용] 밀수꾼: 가짜 '우리' 만들기
+principle.cialdini_unity	ethical_use	[자료 내용] 탐정: 의견 말고 조언 구하기, 한 팀 언어
+principle.cialdini_unity	hospital_use	[자료 내용] 결정 전에 직원·환자에게 조언을 구한다
+principle.cialdini_unity	triggers	concept.munger_t12_self_regard (과도한 자아 존중(내집단), 자료 8쪽 연결선)
+principle.cialdini_unity	triggers	concept.munger_t02_liking (선호/애정 경향, 자료 8쪽 연결선)
+principle.cialdini_unity	defended_by	concept.defense_logic_filter ('우리'가 진짜인지, 제안 자체가 좋은지 분리)
+principle.cialdini_unity	requires	fact:shared_identity (실제 공유하는 소속·정체성·목표)
+principle.cialdini_unity	cue	우리; 한 팀; 같은 편; 가족처럼; 동지; 우리 동네; 함께; 우리끼리
+principle.cialdini_social_proof	kb_kind	principle
+principle.cialdini_social_proof	name_ko	사회적 증거
+principle.cialdini_social_proof	pillar	불확실성 해소
+principle.cialdini_social_proof	part_of	concept.persuasion_misjudgment
+principle.cialdini_social_proof	mechanism	[자료 내용] 불확실할 때 남들, 특히 비슷한 사람들의 행동을 따름 (다원적 무지)
+principle.cialdini_social_proof	evidence_study	[자료 내용] 호텔 수건 '이 방 투숙객 75% 재사용' 문구로 재사용 26% 증가 (원 연구 수치, 재현성 주의)
+principle.cialdini_social_proof	misuse	[자료 내용] 밀수꾼: 가짜 '1,500명 구매 중' 알림
+principle.cialdini_social_proof	ethical_use	[자료 내용] 탐정: 실제 손위생 준수율 등 진짜 데이터만
+principle.cialdini_social_proof	hospital_use	[자료 내용] 수치가 사실일 때만 '다른 동료들' 데이터를 쓴다
+principle.cialdini_social_proof	triggers	concept.munger_t15_social_proof (사회적 증거 경향, 자료 8쪽 연결선)
+principle.cialdini_social_proof	defended_by	concept.defense_proof_check (나와 비슷한 사람인가, 진짜 증거인가 묻기)
+principle.cialdini_social_proof	requires	fact:statistic (비슷한 사람들의 실제 통계·사례(검증 가능))
+principle.cialdini_social_proof	cue	명이 선택; 명이 구매; 다들; 모두가; 대부분; 1위; 베스트셀러; 리뷰; 구매 중; 대세; 많은 분들이; 인기
+principle.cialdini_authority	kb_kind	principle
+principle.cialdini_authority	name_ko	권위
+principle.cialdini_authority	pillar	불확실성 해소
+principle.cialdini_authority	part_of	concept.persuasion_misjudgment
+principle.cialdini_authority	mechanism	[자료 내용] 전문가·권위자 신호(직함·옷·장식)에 자동 복종
+principle.cialdini_authority	evidence_study	[자료 내용] Milgram 1963: 참가자 65%가 최고 450V까지 진행 (원 연구 수치, 재현성 주의)
+principle.cialdini_authority	misuse	[자료 내용] 밀수꾼: 교활한 진실(사소한 약점 인정 후 큰 신뢰 얻기)·부풀린 신호
+principle.cialdini_authority	ethical_use	[자료 내용] 탐정: 실제 전문 분야·경력만, 부풀린 신호 금지
+principle.cialdini_authority	hospital_use	[자료 내용] 실제 전공·경력을 밝히되 과장하지 않는다
+principle.cialdini_authority	triggers	concept.munger_t22_authority (권위 오영향 경향, 자료 8쪽 연결선)
+principle.cialdini_authority	defended_by	concept.defense_authority_two_questions (진짜 전문가인가? 이해관계 없이 정직한가?)
+principle.cialdini_authority	requires	fact:credential (실제 전문 분야·경력·자격)
+principle.cialdini_authority	cue	교수; 박사; 원장; 전문의; 전문가; 권위; 명의; 의사가 추천; 인증; 국내 최고; 세계적
+principle.cialdini_consistency	kb_kind	principle
+principle.cialdini_consistency	name_ko	일관성
+principle.cialdini_consistency	pillar	즉각 행동
+principle.cialdini_consistency	part_of	concept.persuasion_misjudgment
+principle.cialdini_consistency	mechanism	[자료 내용] 작은 약속 후 일관되게 행동하려 함 (풋인더도어)
+principle.cialdini_consistency	evidence_study	[자료 내용] 3인치 스티커 → 대형 광고판 수락 17%→76% (Freedman & Fraser 1966); 환자가 예약카드 직접 작성 시 노쇼 18% 감소 (Martin 외 2012) (원 연구 수치, 재현성 주의)
+principle.cialdini_consistency	misuse	[자료 내용] 밀수꾼: 로우볼(조건을 나중에 바꾸기)
+principle.cialdini_consistency	ethical_use	[자료 내용] 탐정: 환자가 직접 쓰는 예약카드·재활 목표
+principle.cialdini_consistency	hospital_use	[자료 내용] 환자 본인 말로 목표를 쓰게 한다
+principle.cialdini_consistency	triggers	concept.munger_t05_inconsistency (불일치 회피 경향, 자료 8쪽 연결선)
+principle.cialdini_consistency	triggers	concept.munger_t04_doubt (의심 회피 경향, 자료 8쪽 연결선)
+principle.cialdini_consistency	defended_by	concept.defense_body_alarm ('처음으로 돌아가도 같은 선택을 할까?' (심장 신호))
+principle.cialdini_consistency	requires	fact:commitment (상대가 자발적으로 한 이전 약속·목표(본인 말))
+principle.cialdini_consistency	cue	약속하셨; 동의하셨; 말씀하신 대로; 작은 것부터; 서명; 직접 적; 이미 시작; 지난번에
+principle.cialdini_scarcity	kb_kind	principle
+principle.cialdini_scarcity	name_ko	희귀성
+principle.cialdini_scarcity	pillar	즉각 행동
+principle.cialdini_scarcity	part_of	concept.persuasion_misjudgment
+principle.cialdini_scarcity	mechanism	[자료 내용] 잃을 수 있다고 느끼면 더 원함
+principle.cialdini_scarcity	evidence_study	[자료 내용] 쿠키 실험; 독점 정보+품귀 → 고기 주문 6배 (원 연구 수치, 재현성 주의)
+principle.cialdini_scarcity	misuse	[자료 내용] 밀수꾼: 가짜 카운트다운, '마감 3분 전'
+principle.cialdini_scarcity	ethical_use	[자료 내용] 탐정: 실제 제한이 있을 때만 사실대로
+principle.cialdini_scarcity	hospital_use	[자료 내용] 상담에서 '이번 달까지만' 같은 표현을 쓰지 않는다
+principle.cialdini_scarcity	triggers	concept.munger_t14_deprivation (박탈 초반응, 자료 8쪽 연결선)
+principle.cialdini_scarcity	triggers	concept.munger_t08_envy (시기/질투 경향, 자료 8쪽 연결선)
+principle.cialdini_scarcity	defended_by	concept.defense_scarcity_pause (멈추고, 갖고 싶은 것과 쓸모를 분리)
+principle.cialdini_scarcity	requires	fact:real_limit (실제 수량·기한·자원 제한)
+principle.cialdini_scarcity	cue	한정; 마감; 오늘만; 선착순; 품절; 마지막 기회; 남은 수량; 카운트다운; 까지만; 놓치면; 곧 종료; 단 하루
+principle.cialdini_presuasion	kb_kind	principle
+principle.cialdini_presuasion	name_ko	초전 설득
+principle.cialdini_presuasion	pillar	메시지 이전
+principle.cialdini_presuasion	part_of	concept.persuasion_misjudgment
+principle.cialdini_presuasion	mechanism	[자료 내용] 메시지 전에 주의를 어디로 돌리느냐가 판단을 바꿈
+principle.cialdini_presuasion	evidence_study	[자료 내용] 가구 사이트 배경: 구름(편안함) vs 동전(가격) → 선택 기준이 바뀜 (Mandel & Johnson 2002) (원 연구 수치, 재현성 주의)
+principle.cialdini_presuasion	misuse	[자료 내용] 밀수꾼: 본질과 무관한 프레임으로 주의 조작
+principle.cialdini_presuasion	ethical_use	[자료 내용] 탐정: 진짜 중요한 기준(안전·결과)에 먼저 주의를 둔다
+principle.cialdini_presuasion	hospital_use	[자료 내용] 상담 첫머리에 환자의 목표·안전을 먼저 꺼낸다
+principle.cialdini_presuasion	triggers	concept.munger_t16_contrast (대조 반응 왜곡, 자료 8쪽 연결선)
+principle.cialdini_presuasion	triggers	concept.munger_t18_availability (가용성 오측정, 자료 8쪽 연결선)
+principle.cialdini_presuasion	defended_by	concept.defense_two_track (2트랙 분석: 실제 효용 vs 무의식 편향)
+principle.cialdini_presuasion	requires	fact:comparison (정직한 비교 기준(실제 가격·조건))
+principle.cialdini_presuasion	cue	상상해 보세요; 떠올려 보세요; 먼저 생각해 보세요; 지금 이 순간
+principle.cialdini_presuasion	note	[자료 내용] 7원칙 이후 확장 개념(점선 상자)
+concept.munger_t01_reward	kb_kind	tendency
+concept.munger_t01_reward	number	1
+concept.munger_t01_reward	name_ko	보상과 처벌 초반응
+concept.munger_t01_reward	group	동기와 감정
+concept.munger_t01_reward	part_of	concept.persuasion_misjudgment
+concept.munger_t01_reward	part_of	model.munger
+concept.munger_t01_reward	mechanism	[자료 내용] 인센티브의 힘을 늘 과소평가하며, 도덕적 합리화가 보상 구조를 따라 바뀜
+concept.munger_t01_reward	hospital_example	[자료 내용] 지표·보상 설계가 의도하지 않은 행동을 낳음; 측정하는 것이 곧 행동이 됨
+concept.munger_t01_reward	countered_by	concept.defense_inversion
+concept.munger_t01_reward	countered_by	concept.defense_incentive_redesign
+concept.munger_t01_reward	countered_by	concept.defense_temptation_removal
+concept.munger_t01_reward	cue	인센티브; 수수료; 리베이트; 커미션; 성과급; 보너스; 실적
+concept.munger_t01_reward	note	[자료 내용] 멍거에게만 있는 영역(치알디니 대응 원칙 없음)
+concept.munger_t02_liking	kb_kind	tendency
+concept.munger_t02_liking	number	2
+concept.munger_t02_liking	name_ko	선호/애정
+concept.munger_t02_liking	group	동기와 감정
+concept.munger_t02_liking	part_of	concept.persuasion_misjudgment
+concept.munger_t02_liking	part_of	model.munger
+concept.munger_t02_liking	mechanism	[자료 내용] 좋아하는 사람·집단의 결함을 간과
+concept.munger_t02_liking	hospital_example	[자료 내용] 친한 동료의 처방·판독은 덜 꼼꼼히 확인
+concept.munger_t02_liking	triggered_by	principle.cialdini_liking
+concept.munger_t02_liking	triggered_by	principle.cialdini_unity
+concept.munger_t02_liking	countered_by	concept.defense_logic_filter
+concept.munger_t02_liking	countered_by	concept.defense_devils_advocate
+concept.munger_t02_liking	member_of	concept.lolla_tupperware
+concept.munger_t02_liking	cue	좋아하; 팬입니다; 친한
+concept.munger_t03_disliking	kb_kind	tendency
+concept.munger_t03_disliking	number	3
+concept.munger_t03_disliking	name_ko	반감/증오
+concept.munger_t03_disliking	group	동기와 감정
+concept.munger_t03_disliking	part_of	concept.persuasion_misjudgment
+concept.munger_t03_disliking	part_of	model.munger
+concept.munger_t03_disliking	mechanism	[자료 내용] 싫어하는 대상의 장점을 무시하고 사실을 왜곡
+concept.munger_t03_disliking	hospital_example	[자료 내용] 갈등 있는 부서의 개선안을 내용과 무관하게 거부
+concept.munger_t03_disliking	countered_by	concept.defense_logic_filter
+concept.munger_t03_disliking	cue	저들; 그들 때문; 적폐; 혐오; 원수; 저쪽
+concept.munger_t04_doubt	kb_kind	tendency
+concept.munger_t04_doubt	number	4
+concept.munger_t04_doubt	name_ko	의심 회피
+concept.munger_t04_doubt	group	인지와 지각
+concept.munger_t04_doubt	part_of	concept.persuasion_misjudgment
+concept.munger_t04_doubt	part_of	model.munger
+concept.munger_t04_doubt	mechanism	[자료 내용] 불확실성의 불편을 없애려 증거 없이 서둘러 결론
+concept.munger_t04_doubt	hospital_example	[자료 내용] 애매한 검사 결과 앞에서 첫 진단으로 조기 종결
+concept.munger_t04_doubt	triggered_by	principle.cialdini_consistency
+concept.munger_t04_doubt	countered_by	concept.defense_two_track
+concept.munger_t04_doubt	countered_by	concept.defense_inversion
+concept.munger_t04_doubt	countered_by	concept.defense_darwin_rule
+concept.munger_t04_doubt	member_of	concept.lolla_milgram
+concept.munger_t04_doubt	cue	확실합니다; 고민할 필요; 무조건; 100%; 틀림없
+concept.munger_t05_inconsistency	kb_kind	tendency
+concept.munger_t05_inconsistency	number	5
+concept.munger_t05_inconsistency	name_ko	불일치 회피
+concept.munger_t05_inconsistency	group	인지와 지각
+concept.munger_t05_inconsistency	part_of	concept.persuasion_misjudgment
+concept.munger_t05_inconsistency	part_of	model.munger
+concept.munger_t05_inconsistency	mechanism	[자료 내용] 기존 습관·공개 입장·신념과 충돌하는 정보 차단
+concept.munger_t05_inconsistency	hospital_example	[자료 내용] 진단 고착: 첫인상과 맞지 않는 소견을 무시
+concept.munger_t05_inconsistency	triggered_by	principle.cialdini_consistency
+concept.munger_t05_inconsistency	countered_by	concept.defense_body_alarm
+concept.munger_t05_inconsistency	countered_by	concept.defense_checklist
+concept.munger_t05_inconsistency	countered_by	concept.defense_devils_advocate
+concept.munger_t05_inconsistency	countered_by	concept.defense_darwin_rule
+concept.munger_t05_inconsistency	member_of	concept.lolla_winners_curse
+concept.munger_t05_inconsistency	member_of	concept.lolla_dark_pattern
+concept.munger_t05_inconsistency	member_of	concept.lolla_wrong_site_surgery
+concept.munger_t05_inconsistency	member_of	concept.lolla_milgram
+concept.munger_t05_inconsistency	member_of	concept.lolla_tupperware
+concept.munger_t05_inconsistency	cue	이미 정하셨; 지난번에; 말씀하신 대로; 약속하셨
+concept.munger_t06_curiosity	kb_kind	tendency
+concept.munger_t06_curiosity	number	6
+concept.munger_t06_curiosity	name_ko	호기심
+concept.munger_t06_curiosity	group	동기와 감정
+concept.munger_t06_curiosity	part_of	concept.persuasion_misjudgment
+concept.munger_t06_curiosity	part_of	model.munger
+concept.munger_t06_curiosity	mechanism	[자료 내용] 지적 불만족을 해소하려는 충동, 진보의 원동력
+concept.munger_t06_curiosity	hospital_example	[자료 내용] 증례 리뷰, M&M 컨퍼런스가 살아 있는 조직의 힘
+concept.munger_t06_curiosity	cue	비밀; 아무도 모르는; 숨겨진; 최초 공개
+concept.munger_t07_fairness	kb_kind	tendency
+concept.munger_t07_fairness	number	7
+concept.munger_t07_fairness	name_ko	칸트식 공정성
+concept.munger_t07_fairness	group	동기와 감정
+concept.munger_t07_fairness	part_of	concept.persuasion_misjudgment
+concept.munger_t07_fairness	part_of	model.munger
+concept.munger_t07_fairness	mechanism	[자료 내용] 다들 공정하게 행동하리라는 기대가 신뢰와 질서를 만듦
+concept.munger_t07_fairness	hospital_example	[자료 내용] 당직·휴가 배정 규칙이 공정해야 팀이 유지됨; 깨지면 반발이 큼
+concept.munger_t07_fairness	cue	불공정; 특혜; 역차별
+concept.munger_t08_envy	kb_kind	tendency
+concept.munger_t08_envy	number	8
+concept.munger_t08_envy	name_ko	시기/질투
+concept.munger_t08_envy	group	동기와 감정
+concept.munger_t08_envy	part_of	concept.persuasion_misjudgment
+concept.munger_t08_envy	part_of	model.munger
+concept.munger_t08_envy	mechanism	[자료 내용] 타인의 상대적 우위에 박탈감, 파괴적 경쟁
+concept.munger_t08_envy	hospital_example	[자료 내용] 부서 간 보상 격차가 협업을 무너뜨림
+concept.munger_t08_envy	triggered_by	principle.cialdini_scarcity
+concept.munger_t08_envy	countered_by	concept.defense_scarcity_pause
+concept.munger_t08_envy	cue	남들은 벌써; 옆 병원; 동기는; 뒤처; 부러
+concept.munger_t09_reciprocity	kb_kind	tendency
+concept.munger_t09_reciprocity	number	9
+concept.munger_t09_reciprocity	name_ko	상호성
+concept.munger_t09_reciprocity	group	동기와 감정
+concept.munger_t09_reciprocity	part_of	concept.persuasion_misjudgment
+concept.munger_t09_reciprocity	part_of	model.munger
+concept.munger_t09_reciprocity	mechanism	[자료 내용] 호의·위해를 같은 방식으로 되갚으려 함
+concept.munger_t09_reciprocity	hospital_example	[자료 내용] 업체 영업의 소소한 호의가 선택에 영향
+concept.munger_t09_reciprocity	triggered_by	principle.cialdini_reciprocity
+concept.munger_t09_reciprocity	countered_by	concept.defense_reclassify_gift
+concept.munger_t09_reciprocity	member_of	concept.lolla_tupperware
+concept.munger_t09_reciprocity	cue	드렸으니; 선물; 무료; 샘플; 접대
+concept.munger_t10_association	kb_kind	tendency
+concept.munger_t10_association	number	10
+concept.munger_t10_association	name_ko	단순 연관 왜곡
+concept.munger_t10_association	group	인지와 지각
+concept.munger_t10_association	part_of	concept.persuasion_misjudgment
+concept.munger_t10_association	part_of	model.munger
+concept.munger_t10_association	mechanism	[자료 내용] 우연한 성공·매력·자극을 실제 가치로 착각
+concept.munger_t10_association	hospital_example	[자료 내용] 나쁜 소식을 전한 사람이 미움받음 → 보고 기피
+concept.munger_t10_association	triggered_by	principle.cialdini_liking
+concept.munger_t10_association	countered_by	concept.defense_logic_filter
+concept.munger_t10_association	countered_by	concept.defense_two_challenge
+concept.munger_t10_association	member_of	concept.lolla_coca_cola
+concept.munger_t10_association	cue	광고 모델; 연예인; 행운
+concept.munger_t11_denial	kb_kind	tendency
+concept.munger_t11_denial	number	11
+concept.munger_t11_denial	name_ko	고통 회피 심리적 부정
+concept.munger_t11_denial	group	인지와 지각
+concept.munger_t11_denial	part_of	concept.persuasion_misjudgment
+concept.munger_t11_denial	part_of	model.munger
+concept.munger_t11_denial	mechanism	[자료 내용] 감당하기 힘든 현실을 뇌가 왜곡해 인식
+concept.munger_t11_denial	hospital_example	[자료 내용] 나쁜 예후를 부정하는 보호자, 자기 합병증 가능성을 부정하는 의료진
+concept.munger_t11_denial	countered_by	concept.defense_two_track
+concept.munger_t11_denial	member_of	concept.lolla_milgram
+concept.munger_t11_denial	cue	괜찮을 거; 별일 아니; 걱정 마; 문제없
+concept.munger_t11_denial	note	[자료 내용] 멍거에게만 있는 영역(치알디니 대응 원칙 없음)
+concept.munger_t12_self_regard	kb_kind	tendency
+concept.munger_t12_self_regard	number	12
+concept.munger_t12_self_regard	name_ko	과도한 자아 존중
+concept.munger_t12_self_regard	group	인지와 지각
+concept.munger_t12_self_regard	part_of	concept.persuasion_misjudgment
+concept.munger_t12_self_regard	part_of	model.munger
+concept.munger_t12_self_regard	mechanism	[자료 내용] 자신의 역량·소유물·집단을 실제보다 높게 평가
+concept.munger_t12_self_regard	hospital_example	[자료 내용] 성과 데이터 없이 '내 결과는 평균 이상'이라 확신
+concept.munger_t12_self_regard	triggered_by	principle.cialdini_unity
+concept.munger_t12_self_regard	countered_by	concept.defense_inversion
+concept.munger_t12_self_regard	countered_by	concept.defense_devils_advocate
+concept.munger_t12_self_regard	countered_by	concept.defense_darwin_rule
+concept.munger_t12_self_regard	cue	당신 같은 분; 선택받은; VIP; 안목; 아는 분만
+concept.munger_t13_optimism	kb_kind	tendency
+concept.munger_t13_optimism	number	13
+concept.munger_t13_optimism	name_ko	과도한 낙관
+concept.munger_t13_optimism	group	인지와 지각
+concept.munger_t13_optimism	part_of	concept.persuasion_misjudgment
+concept.munger_t13_optimism	part_of	model.munger
+concept.munger_t13_optimism	mechanism	[자료 내용] 확률과 무관하게 원하는 대로 될 것이라 믿음
+concept.munger_t13_optimism	hospital_example	[자료 내용] 회복 기간·일정을 낙관적으로 안내
+concept.munger_t13_optimism	countered_by	concept.defense_two_track
+concept.munger_t13_optimism	countered_by	concept.defense_inversion
+concept.munger_t13_optimism	cue	반드시 오른다; 무조건 성공; 금방 회복; 대박
+concept.munger_t13_optimism	note	[자료 내용] 멍거에게만 있는 영역(치알디니 대응 원칙 없음)
+concept.munger_t14_deprivation	kb_kind	tendency
+concept.munger_t14_deprivation	number	14
+concept.munger_t14_deprivation	name_ko	박탈 초반응
+concept.munger_t14_deprivation	group	동기와 감정
+concept.munger_t14_deprivation	part_of	concept.persuasion_misjudgment
+concept.munger_t14_deprivation	part_of	model.munger
+concept.munger_t14_deprivation	mechanism	[자료 내용] 가진 것이나 얻을 뻔한 것을 잃을 때 불균형적 분노·공포
+concept.munger_t14_deprivation	hospital_example	[자료 내용] 기존 권한·업무 방식 축소에 대한 과도한 반발
+concept.munger_t14_deprivation	triggered_by	principle.cialdini_scarcity
+concept.munger_t14_deprivation	countered_by	concept.defense_body_alarm
+concept.munger_t14_deprivation	countered_by	concept.defense_scarcity_pause
+concept.munger_t14_deprivation	member_of	concept.lolla_winners_curse
+concept.munger_t14_deprivation	member_of	concept.lolla_dark_pattern
+concept.munger_t14_deprivation	member_of	concept.lolla_wrong_site_surgery
+concept.munger_t14_deprivation	cue	놓치면; 잃게; 사라집니다; 마지막 기회; 손해; 품절
+concept.munger_t15_social_proof	kb_kind	tendency
+concept.munger_t15_social_proof	number	15
+concept.munger_t15_social_proof	name_ko	사회적 증거
+concept.munger_t15_social_proof	group	사회적 영향
+concept.munger_t15_social_proof	part_of	concept.persuasion_misjudgment
+concept.munger_t15_social_proof	part_of	model.munger
+concept.munger_t15_social_proof	mechanism	[자료 내용] 불확실할 때 다수를 정답으로 간주
+concept.munger_t15_social_proof	hospital_example	[자료 내용] '원래 다들 이렇게 해 왔다'는 관행
+concept.munger_t15_social_proof	triggered_by	principle.cialdini_social_proof
+concept.munger_t15_social_proof	countered_by	concept.defense_checklist
+concept.munger_t15_social_proof	countered_by	concept.defense_devils_advocate
+concept.munger_t15_social_proof	countered_by	concept.defense_two_challenge
+concept.munger_t15_social_proof	countered_by	concept.defense_proof_check
+concept.munger_t15_social_proof	member_of	concept.lolla_winners_curse
+concept.munger_t15_social_proof	member_of	concept.lolla_coca_cola
+concept.munger_t15_social_proof	member_of	concept.lolla_dark_pattern
+concept.munger_t15_social_proof	member_of	concept.lolla_wrong_site_surgery
+concept.munger_t15_social_proof	member_of	concept.lolla_tupperware
+concept.munger_t15_social_proof	cue	다들; 모두가; 명이 선택; 1위; 대세; 유행
+concept.munger_t16_contrast	kb_kind	tendency
+concept.munger_t16_contrast	number	16
+concept.munger_t16_contrast	name_ko	대조 반응 왜곡
+concept.munger_t16_contrast	group	인지와 지각
+concept.munger_t16_contrast	part_of	concept.persuasion_misjudgment
+concept.munger_t16_contrast	part_of	model.munger
+concept.munger_t16_contrast	mechanism	[자료 내용] 절대값이 아니라 직전 자극과의 대비로 크기를 판단
+concept.munger_t16_contrast	hospital_example	[자료 내용] 큰 금액 안내 직후 추가 비용이 작아 보임
+concept.munger_t16_contrast	triggered_by	principle.cialdini_presuasion
+concept.munger_t16_contrast	countered_by	concept.defense_two_track
+concept.munger_t16_contrast	member_of	concept.lolla_winners_curse
+concept.munger_t16_contrast	member_of	concept.lolla_coca_cola
+concept.munger_t16_contrast	member_of	concept.lolla_milgram
+concept.munger_t16_contrast	cue	정가; 원래 가격; 에 비하면; 단돈; 겨우; 할인
+concept.munger_t17_stress	kb_kind	tendency
+concept.munger_t17_stress	number	17
+concept.munger_t17_stress	name_ko	스트레스 영향
+concept.munger_t17_stress	group	생리적 상태
+concept.munger_t17_stress	part_of	concept.persuasion_misjudgment
+concept.munger_t17_stress	part_of	model.munger
+concept.munger_t17_stress	mechanism	[자료 내용] 급성 스트레스에서 체계적 사고 붕괴, 투쟁-도피와 군중 추종으로 퇴행
+concept.munger_t17_stress	hospital_example	[자료 내용] 응급 상황에서 판단 단순화, 권위 추종 증가
+concept.munger_t17_stress	countered_by	concept.defense_checklist
+concept.munger_t17_stress	countered_by	concept.defense_readback
+concept.munger_t17_stress	member_of	concept.lolla_wrong_site_surgery
+concept.munger_t17_stress	cue	지금 당장; 즉시; 긴급; 서두르; 오늘 안에; 바로 결정
+concept.munger_t17_stress	note	[자료 내용] 멍거에게만 있는 영역(치알디니 대응 원칙 없음)
+concept.munger_t18_availability	kb_kind	tendency
+concept.munger_t18_availability	number	18
+concept.munger_t18_availability	name_ko	가용성 오측정
+concept.munger_t18_availability	group	인지와 지각
+concept.munger_t18_availability	part_of	concept.persuasion_misjudgment
+concept.munger_t18_availability	part_of	model.munger
+concept.munger_t18_availability	mechanism	[자료 내용] 쉽게 떠오르고 최근에 겪고 강렬한 정보에 과도한 가중치
+concept.munger_t18_availability	hospital_example	[자료 내용] 최근 겪은 드문 합병증 때문에 위험을 과대평가
+concept.munger_t18_availability	triggered_by	principle.cialdini_presuasion
+concept.munger_t18_availability	cue	최근; 뉴스에 나온; 얼마 전; 실제로 이런 일이
+concept.munger_t19_use_it	kb_kind	tendency
+concept.munger_t19_use_it	number	19
+concept.munger_t19_use_it	name_ko	용불용
+concept.munger_t19_use_it	group	생리적 상태
+concept.munger_t19_use_it	part_of	concept.persuasion_misjudgment
+concept.munger_t19_use_it	part_of	model.munger
+concept.munger_t19_use_it	mechanism	[자료 내용] 쓰지 않는 기술과 정신 모형은 감퇴
+concept.munger_t19_use_it	hospital_example	[자료 내용] 정기 훈련 없는 CPR·응급 술기의 퇴화
+concept.munger_t19_use_it	countered_by	concept.defense_checklist
+concept.munger_t19_use_it	cue	오래 안 해; 감 잃
+concept.munger_t19_use_it	note	[자료 내용] 멍거에게만 있는 영역(치알디니 대응 원칙 없음)
+concept.munger_t20_drug	kb_kind	tendency
+concept.munger_t20_drug	number	20
+concept.munger_t20_drug	name_ko	약물 오영향
+concept.munger_t20_drug	group	생리적 상태
+concept.munger_t20_drug	part_of	concept.persuasion_misjudgment
+concept.munger_t20_drug	part_of	model.munger
+concept.munger_t20_drug	mechanism	[자료 내용] 알코올·향정신성 물질이 현실 검증 능력 손상
+concept.munger_t20_drug	hospital_example	[자료 내용] 음주·수면제 복용 후 당직 판단력 저하
+concept.munger_t20_drug	countered_by	concept.defense_temptation_removal
+concept.munger_t20_drug	cue	술자리; 음주; 취해
+concept.munger_t20_drug	note	[자료 내용] 멍거에게만 있는 영역(치알디니 대응 원칙 없음)
+concept.munger_t21_senescence	kb_kind	tendency
+concept.munger_t21_senescence	number	21
+concept.munger_t21_senescence	name_ko	노화 오영향
+concept.munger_t21_senescence	group	생리적 상태
+concept.munger_t21_senescence	part_of	concept.persuasion_misjudgment
+concept.munger_t21_senescence	part_of	model.munger
+concept.munger_t21_senescence	mechanism	[자료 내용] 신경 인지적 유연성 저하로 새 개념 습득 지체
+concept.munger_t21_senescence	hospital_example	[자료 내용] 숙련자일수록 새 가이드라인 수용이 늦어질 위험
+concept.munger_t21_senescence	note	[자료 내용] 멍거에게만 있는 영역(치알디니 대응 원칙 없음)
+concept.munger_t22_authority	kb_kind	tendency
+concept.munger_t22_authority	number	22
+concept.munger_t22_authority	name_ko	권위 오영향
+concept.munger_t22_authority	group	사회적 영향
+concept.munger_t22_authority	part_of	concept.persuasion_misjudgment
+concept.munger_t22_authority	part_of	model.munger
+concept.munger_t22_authority	mechanism	[자료 내용] 상급자·전문가의 지시에 비판적 검증을 멈춤
+concept.munger_t22_authority	hospital_example	[자료 내용] 잘못된 처방이 의심 없이 수행됨 (R ear 사례)
+concept.munger_t22_authority	triggered_by	principle.cialdini_authority
+concept.munger_t22_authority	countered_by	concept.defense_checklist
+concept.munger_t22_authority	countered_by	concept.defense_5w
+concept.munger_t22_authority	countered_by	concept.defense_two_challenge
+concept.munger_t22_authority	countered_by	concept.defense_readback
+concept.munger_t22_authority	countered_by	concept.defense_authority_two_questions
+concept.munger_t22_authority	member_of	concept.lolla_wrong_site_surgery
+concept.munger_t22_authority	member_of	concept.lolla_milgram
+concept.munger_t22_authority	cue	교수님; 원장님; 전문가; 권위; 명의; 지시대로
+concept.munger_t23_twaddle	kb_kind	tendency
+concept.munger_t23_twaddle	number	23
+concept.munger_t23_twaddle	name_ko	헛소리
+concept.munger_t23_twaddle	group	사회적 영향
+concept.munger_t23_twaddle	part_of	concept.persuasion_misjudgment
+concept.munger_t23_twaddle	part_of	model.munger
+concept.munger_t23_twaddle	mechanism	[자료 내용] 사실·대안 없는 공허한 수사로 시간 소모
+concept.munger_t23_twaddle	hospital_example	[자료 내용] 결론 없는 장시간 회의, 용어만 가득한 보고서
+concept.munger_t23_twaddle	countered_by	concept.defense_5w
+concept.munger_t23_twaddle	cue	패러다임; 시너지; 혁신적인 솔루션; 극대화
+concept.munger_t23_twaddle	note	[자료 내용] 멍거에게만 있는 영역(치알디니 대응 원칙 없음)
+concept.munger_t24_reason	kb_kind	tendency
+concept.munger_t24_reason	number	24
+concept.munger_t24_reason	name_ko	이유 존중
+concept.munger_t24_reason	group	사회적 영향
+concept.munger_t24_reason	part_of	concept.persuasion_misjudgment
+concept.munger_t24_reason	part_of	model.munger
+concept.munger_t24_reason	mechanism	[자료 내용] '왜냐하면'만 붙어도 타당성과 무관하게 수락
+concept.munger_t24_reason	hospital_example	[자료 내용] 이유를 붙인 지시는 준수율이 오름; 좋은 방향으로 활용
+concept.munger_t24_reason	countered_by	concept.defense_5w
+concept.munger_t24_reason	member_of	concept.lolla_milgram
+concept.munger_t24_reason	cue	왜냐하면; 때문입니다; 이유는
+concept.munger_t25_lollapalooza	kb_kind	tendency
+concept.munger_t25_lollapalooza	number	25
+concept.munger_t25_lollapalooza	name_ko	롤라팔루자
+concept.munger_t25_lollapalooza	group	결합
+concept.munger_t25_lollapalooza	part_of	concept.persuasion_misjudgment
+concept.munger_t25_lollapalooza	part_of	model.munger
+concept.munger_t25_lollapalooza	mechanism	[자료 내용] 여러 경향이 한 방향으로 겹쳐 극단적 결과 창출 (곱셈 증폭)
+concept.munger_t25_lollapalooza	hospital_example	[자료 내용] 대형 의료사고는 대개 단일 원인이 아니라 편향의 중첩
+concept.munger_t25_lollapalooza	countered_by	concept.defense_body_alarm
+concept.munger_t25_lollapalooza	countered_by	concept.defense_checklist
+concept.munger_t25_lollapalooza	countered_by	concept.defense_lolla_checklist
+concept.munger_t25_lollapalooza	emerges_from	concept.lolla_winners_curse
+concept.munger_t25_lollapalooza	emerges_from	concept.lolla_coca_cola
+concept.munger_t25_lollapalooza	emerges_from	concept.lolla_dark_pattern
+concept.munger_t25_lollapalooza	emerges_from	concept.lolla_wrong_site_surgery
+concept.munger_t25_lollapalooza	emerges_from	concept.lolla_milgram
+concept.munger_t25_lollapalooza	emerges_from	concept.lolla_tupperware
+concept.munger_t25_lollapalooza	rule	[자료 내용] 결합은 곱셈(A×B×C×D)이라 고리 하나만 끊어도 멈춘다
+concept.lolla_winners_curse	kb_kind	combo
+concept.lolla_winners_curse	name_ko	승자의 저주(경매·인수)
+concept.lolla_winners_curse	valence	파괴적
+concept.lolla_winners_curse	part_of	concept.persuasion_misjudgment
+concept.lolla_winners_curse	instance_of	concept.munger_t25_lollapalooza
+concept.lolla_winners_curse	description	[자료 내용] 경쟁 입찰 열기(사회적 증거)+놓칠까(박탈)+이미 쓴 시간(불일치)+대비 착시 → 과잉 지불
+concept.lolla_winners_curse	member	concept.munger_t15_social_proof
+concept.lolla_winners_curse	member	concept.munger_t14_deprivation
+concept.lolla_winners_curse	member	concept.munger_t05_inconsistency
+concept.lolla_winners_curse	member	concept.munger_t16_contrast
+concept.munger_t15_social_proof	amplifies	concept.munger_t14_deprivation (승자의 저주(경매·인수) 결합 안에서)
+concept.munger_t14_deprivation	amplifies	concept.munger_t05_inconsistency (승자의 저주(경매·인수) 결합 안에서)
+concept.munger_t05_inconsistency	amplifies	concept.munger_t16_contrast (승자의 저주(경매·인수) 결합 안에서)
+concept.lolla_winners_curse	broken_by	concept.defense_checklist
+concept.lolla_winners_curse	broken_by	concept.defense_inversion
+concept.lolla_winners_curse	broken_by	concept.defense_devils_advocate
+concept.lolla_coca_cola	kb_kind	combo
+concept.lolla_coca_cola	name_ko	코카콜라(건설적 결합)
+concept.lolla_coca_cola	valence	건설적
+concept.lolla_coca_cola	part_of	concept.persuasion_misjudgment
+concept.lolla_coca_cola	instance_of	concept.munger_t25_lollapalooza
+concept.lolla_coca_cola	description	[자료 내용] 연관(브랜드 이미지)+습관+사회적 증거+대조가 같은 방향 → 건설적 롤라팔루자의 예
+concept.lolla_coca_cola	member	concept.munger_t10_association
+concept.lolla_coca_cola	member	concept.munger_t15_social_proof
+concept.lolla_coca_cola	member	concept.munger_t16_contrast
+concept.munger_t10_association	amplifies	concept.munger_t15_social_proof (코카콜라(건설적 결합) 결합 안에서)
+concept.munger_t15_social_proof	amplifies	concept.munger_t16_contrast (코카콜라(건설적 결합) 결합 안에서)
+concept.lolla_dark_pattern	kb_kind	combo
+concept.lolla_dark_pattern	name_ko	다크 패턴(디지털)
+concept.lolla_dark_pattern	valence	파괴적
+concept.lolla_dark_pattern	part_of	concept.persuasion_misjudgment
+concept.lolla_dark_pattern	instance_of	concept.munger_t25_lollapalooza
+concept.lolla_dark_pattern	description	[자료 내용] 가짜 카운트다운+실시간 구매 알림+어려운 해지(일관성·현상 유지)
+concept.lolla_dark_pattern	member	concept.munger_t14_deprivation
+concept.lolla_dark_pattern	member	concept.munger_t15_social_proof
+concept.lolla_dark_pattern	member	concept.munger_t05_inconsistency
+concept.munger_t14_deprivation	amplifies	concept.munger_t15_social_proof (다크 패턴(디지털) 결합 안에서)
+concept.munger_t15_social_proof	amplifies	concept.munger_t05_inconsistency (다크 패턴(디지털) 결합 안에서)
+concept.lolla_dark_pattern	broken_by	concept.defense_scarcity_pause
+concept.lolla_dark_pattern	broken_by	concept.defense_proof_check
+concept.lolla_wrong_site_surgery	kb_kind	combo
+concept.lolla_wrong_site_surgery	name_ko	잘못된 부위 수술·약물 사고
+concept.lolla_wrong_site_surgery	valence	파괴적
+concept.lolla_wrong_site_surgery	part_of	concept.persuasion_misjudgment
+concept.lolla_wrong_site_surgery	instance_of	concept.munger_t25_lollapalooza
+concept.lolla_wrong_site_surgery	description	[자료 내용] 스트레스+권위+불일치 회피+박탈(시간)+사회적 증거 → 수술 타임아웃으로 고리 하나를 끊는다
+concept.lolla_wrong_site_surgery	member	concept.munger_t17_stress
+concept.lolla_wrong_site_surgery	member	concept.munger_t22_authority
+concept.lolla_wrong_site_surgery	member	concept.munger_t05_inconsistency
+concept.lolla_wrong_site_surgery	member	concept.munger_t14_deprivation
+concept.lolla_wrong_site_surgery	member	concept.munger_t15_social_proof
+concept.munger_t17_stress	amplifies	concept.munger_t22_authority (잘못된 부위 수술·약물 사고 결합 안에서)
+concept.munger_t22_authority	amplifies	concept.munger_t05_inconsistency (잘못된 부위 수술·약물 사고 결합 안에서)
+concept.munger_t05_inconsistency	amplifies	concept.munger_t14_deprivation (잘못된 부위 수술·약물 사고 결합 안에서)
+concept.munger_t14_deprivation	amplifies	concept.munger_t15_social_proof (잘못된 부위 수술·약물 사고 결합 안에서)
+concept.lolla_wrong_site_surgery	broken_by	concept.defense_checklist
+concept.lolla_wrong_site_surgery	broken_by	concept.defense_two_challenge
+concept.lolla_wrong_site_surgery	broken_by	concept.defense_readback
+concept.lolla_milgram	kb_kind	combo
+concept.lolla_milgram	name_ko	Milgram 복종 실험(멍거 해석)
+concept.lolla_milgram	valence	파괴적
+concept.lolla_milgram	part_of	concept.persuasion_misjudgment
+concept.lolla_milgram	instance_of	concept.munger_t25_lollapalooza
+concept.lolla_milgram	description	[자료 내용] 멍거는 권위만이 아니라 6개 이상 경향의 결합으로 읽었다
+concept.lolla_milgram	member	concept.munger_t22_authority
+concept.lolla_milgram	member	concept.munger_t05_inconsistency
+concept.lolla_milgram	member	concept.munger_t04_doubt
+concept.lolla_milgram	member	concept.munger_t24_reason
+concept.lolla_milgram	member	concept.munger_t11_denial
+concept.lolla_milgram	member	concept.munger_t16_contrast
+concept.munger_t22_authority	amplifies	concept.munger_t05_inconsistency (Milgram 복종 실험(멍거 해석) 결합 안에서)
+concept.munger_t05_inconsistency	amplifies	concept.munger_t04_doubt (Milgram 복종 실험(멍거 해석) 결합 안에서)
+concept.munger_t04_doubt	amplifies	concept.munger_t24_reason (Milgram 복종 실험(멍거 해석) 결합 안에서)
+concept.munger_t24_reason	amplifies	concept.munger_t11_denial (Milgram 복종 실험(멍거 해석) 결합 안에서)
+concept.munger_t11_denial	amplifies	concept.munger_t16_contrast (Milgram 복종 실험(멍거 해석) 결합 안에서)
+concept.lolla_milgram	broken_by	concept.defense_two_challenge
+concept.lolla_tupperware	kb_kind	combo
+concept.lolla_tupperware	name_ko	터퍼웨어 파티
+concept.lolla_tupperware	valence	파괴적
+concept.lolla_tupperware	part_of	concept.persuasion_misjudgment
+concept.lolla_tupperware	instance_of	concept.munger_t25_lollapalooza
+concept.lolla_tupperware	description	[자료 내용] 선물(상호성)+친구(호감)+이웃 주문(사회적 증거)+공개 칭찬·약속(일관성)
+concept.lolla_tupperware	member	concept.munger_t09_reciprocity
+concept.lolla_tupperware	member	concept.munger_t02_liking
+concept.lolla_tupperware	member	concept.munger_t15_social_proof
+concept.lolla_tupperware	member	concept.munger_t05_inconsistency
+concept.munger_t09_reciprocity	amplifies	concept.munger_t02_liking (터퍼웨어 파티 결합 안에서)
+concept.munger_t02_liking	amplifies	concept.munger_t15_social_proof (터퍼웨어 파티 결합 안에서)
+concept.munger_t15_social_proof	amplifies	concept.munger_t05_inconsistency (터퍼웨어 파티 결합 안에서)
+concept.lolla_tupperware	broken_by	concept.defense_logic_filter
+concept.lolla_tupperware	broken_by	concept.defense_reclassify_gift
+concept.defense_body_alarm	kb_kind	defense
+concept.defense_body_alarm	name_ko	신체 경보(배·심장 신호)
+concept.defense_body_alarm	layer	감지(치알디니)
+concept.defense_body_alarm	part_of	concept.persuasion_misjudgment
+concept.defense_body_alarm	how	[자료 내용] 속이 불편하면 멈춘다; '지금 아는 것을 알고도 같은 선택을 할까?'
+concept.defense_body_alarm	counters	concept.munger_t05_inconsistency
+concept.defense_body_alarm	counters	concept.munger_t14_deprivation
+concept.defense_body_alarm	counters	concept.munger_t25_lollapalooza
+concept.defense_logic_filter	kb_kind	defense
+concept.defense_logic_filter	name_ko	논리 필터(사람과 제안 분리)
+concept.defense_logic_filter	layer	감지(치알디니)
+concept.defense_logic_filter	part_of	concept.persuasion_misjudgment
+concept.defense_logic_filter	how	[자료 내용] 좋은 사람인가와 좋은 제안인가를 따로 평가
+concept.defense_logic_filter	counters	concept.munger_t02_liking
+concept.defense_logic_filter	counters	concept.munger_t03_disliking
+concept.defense_logic_filter	counters	concept.munger_t10_association
+concept.defense_two_track	kb_kind	defense
+concept.defense_two_track	name_ko	2트랙 분석
+concept.defense_two_track	layer	분리(멍거)
+concept.defense_two_track	part_of	concept.persuasion_misjudgment
+concept.defense_two_track	how	[자료 내용] 1트랙=효용·확률·물리·경제, 2트랙=무의식 편향
+concept.defense_two_track	counters	concept.munger_t04_doubt
+concept.defense_two_track	counters	concept.munger_t13_optimism
+concept.defense_two_track	counters	concept.munger_t11_denial
+concept.defense_two_track	counters	concept.munger_t16_contrast
+concept.defense_inversion	kb_kind	defense
+concept.defense_inversion	name_ko	역발상·사전 부검
+concept.defense_inversion	layer	분리(멍거)
+concept.defense_inversion	part_of	concept.persuasion_misjudgment
+concept.defense_inversion	how	[자료 내용] '어떻게 하면 실패할까?'를 먼저 묻는다 (pre-mortem)
+concept.defense_inversion	counters	concept.munger_t13_optimism
+concept.defense_inversion	counters	concept.munger_t12_self_regard
+concept.defense_inversion	counters	concept.munger_t01_reward
+concept.defense_inversion	counters	concept.munger_t04_doubt
+concept.defense_checklist	kb_kind	defense
+concept.defense_checklist	name_ko	체크리스트
+concept.defense_checklist	layer	구조
+concept.defense_checklist	part_of	concept.persuasion_misjudgment
+concept.defense_checklist	how	[자료 내용] 조종사 → WHO 수술 안전 체크리스트, 고위험 약물 이중 확인
+concept.defense_checklist	counters	concept.munger_t17_stress
+concept.defense_checklist	counters	concept.munger_t22_authority
+concept.defense_checklist	counters	concept.munger_t15_social_proof
+concept.defense_checklist	counters	concept.munger_t05_inconsistency
+concept.defense_checklist	counters	concept.munger_t19_use_it
+concept.defense_checklist	counters	concept.munger_t25_lollapalooza
+concept.defense_devils_advocate	kb_kind	defense
+concept.defense_devils_advocate	name_ko	악마의 변호인
+concept.defense_devils_advocate	layer	구조
+concept.defense_devils_advocate	part_of	concept.persuasion_misjudgment
+concept.defense_devils_advocate	how	[자료 내용] 장비 도입 회의에서 반대 역할을 지정
+concept.defense_devils_advocate	counters	concept.munger_t05_inconsistency
+concept.defense_devils_advocate	counters	concept.munger_t12_self_regard
+concept.defense_devils_advocate	counters	concept.munger_t15_social_proof
+concept.defense_devils_advocate	counters	concept.munger_t02_liking
+concept.defense_incentive_redesign	kb_kind	defense
+concept.defense_incentive_redesign	name_ko	인센티브 재설계
+concept.defense_incentive_redesign	layer	구조
+concept.defense_incentive_redesign	part_of	concept.persuasion_misjudgment
+concept.defense_incentive_redesign	how	[자료 내용] 원하는 행동에 보상을 맞춘다 (FedEx 사례)
+concept.defense_incentive_redesign	counters	concept.munger_t01_reward
+concept.defense_temptation_removal	kb_kind	defense
+concept.defense_temptation_removal	name_ko	유혹 제거
+concept.defense_temptation_removal	layer	구조
+concept.defense_temptation_removal	part_of	concept.persuasion_misjudgment
+concept.defense_temptation_removal	how	[자료 내용] 금전등록기·원가 가산 계약 금지 → 청구·약품 이중 관리
+concept.defense_temptation_removal	counters	concept.munger_t01_reward
+concept.defense_temptation_removal	counters	concept.munger_t20_drug
+concept.defense_5w	kb_kind	defense
+concept.defense_5w	name_ko	5W 규칙(이유 붙이기)
+concept.defense_5w	layer	구조
+concept.defense_5w	part_of	concept.persuasion_misjudgment
+concept.defense_5w	how	[자료 내용] 지시에 항상 '왜'를 붙인다 (Carl Braun)
+concept.defense_5w	counters	concept.munger_t24_reason
+concept.defense_5w	counters	concept.munger_t22_authority
+concept.defense_5w	counters	concept.munger_t23_twaddle
+concept.defense_two_challenge	kb_kind	defense
+concept.defense_two_challenge	name_ko	2회 이의 제기 규칙
+concept.defense_two_challenge	layer	구조
+concept.defense_two_challenge	part_of	concept.persuasion_misjudgment
+concept.defense_two_challenge	how	[자료 내용] 위험이 보이면 두 번까지 분명히 말한다; 질문한 사람에게 감사
+concept.defense_two_challenge	counters	concept.munger_t22_authority
+concept.defense_two_challenge	counters	concept.munger_t15_social_proof
+concept.defense_two_challenge	counters	concept.munger_t10_association
+concept.defense_readback	kb_kind	defense
+concept.defense_readback	name_ko	구두 지시 복창
+concept.defense_readback	layer	구조
+concept.defense_readback	part_of	concept.persuasion_misjudgment
+concept.defense_readback	how	[자료 내용] 구두 지시는 받아 적고 다시 읽어 확인; 약어 금지 목록
+concept.defense_readback	counters	concept.munger_t22_authority
+concept.defense_readback	counters	concept.munger_t17_stress
+concept.defense_darwin_rule	kb_kind	defense
+concept.defense_darwin_rule	name_ko	다윈의 반증 기록
+concept.defense_darwin_rule	layer	분리(멍거)
+concept.defense_darwin_rule	part_of	concept.persuasion_misjudgment
+concept.defense_darwin_rule	how	[자료 내용] 내 생각과 반대되는 소견을 즉시 기록
+concept.defense_darwin_rule	counters	concept.munger_t05_inconsistency
+concept.defense_darwin_rule	counters	concept.munger_t04_doubt
+concept.defense_darwin_rule	counters	concept.munger_t12_self_regard
+concept.defense_lolla_checklist	kb_kind	defense
+concept.defense_lolla_checklist	name_ko	개인 10문항 점검(3개 이상이면 멈춤)
+concept.defense_lolla_checklist	layer	감지(치알디니)
+concept.defense_lolla_checklist	part_of	concept.persuasion_misjudgment
+concept.defense_lolla_checklist	how	[자료 내용] 10문항 중 3개 이상 해당하면 롤라팔루자를 의심하고 멈춘다
+concept.defense_lolla_checklist	counters	concept.munger_t25_lollapalooza
+concept.defense_reclassify_gift	kb_kind	defense
+concept.defense_reclassify_gift	name_ko	선물 재분류
+concept.defense_reclassify_gift	layer	원칙별 방어
+concept.defense_reclassify_gift	part_of	concept.persuasion_misjudgment
+concept.defense_reclassify_gift	how	[자료 내용] 선물·호의를 영업 기법으로 재분류하면 갚을 의무감이 사라진다
+concept.defense_reclassify_gift	counters	concept.munger_t09_reciprocity
+concept.defense_authority_two_questions	kb_kind	defense
+concept.defense_authority_two_questions	name_ko	권위 2질문
+concept.defense_authority_two_questions	layer	원칙별 방어
+concept.defense_authority_two_questions	part_of	concept.persuasion_misjudgment
+concept.defense_authority_two_questions	how	[자료 내용] 진짜 전문가인가? 이해관계 없이 정직한가?
+concept.defense_authority_two_questions	counters	concept.munger_t22_authority
+concept.defense_scarcity_pause	kb_kind	defense
+concept.defense_scarcity_pause	name_ko	희귀성 멈춤
+concept.defense_scarcity_pause	layer	원칙별 방어
+concept.defense_scarcity_pause	part_of	concept.persuasion_misjudgment
+concept.defense_scarcity_pause	how	[자료 내용] 멈추고, 갖고 싶은 마음과 쓸모를 분리
+concept.defense_scarcity_pause	counters	concept.munger_t14_deprivation
+concept.defense_scarcity_pause	counters	concept.munger_t08_envy
+concept.defense_proof_check	kb_kind	defense
+concept.defense_proof_check	name_ko	증거 점검
+concept.defense_proof_check	layer	원칙별 방어
+concept.defense_proof_check	part_of	concept.persuasion_misjudgment
+concept.defense_proof_check	how	[자료 내용] 나와 비슷한 사람들인가? 진짜 증거인가?
+concept.defense_proof_check	counters	concept.munger_t15_social_proof
+concept.case_r_ear	kb_kind	case
+concept.case_r_ear	name_ko	R ear 사건
+concept.case_r_ear	part_of	concept.persuasion_misjudgment
+concept.case_r_ear	applies_at	org.namyangju_baek_hospital
+concept.case_r_ear	description	[자료 내용] 'R ear(오른쪽 귀)'를 'Rear(항문)'로 읽어 귀약을 직장 투여; 간호사도 환자도 의사 권위에 따름
+concept.case_r_ear	illustrates	concept.munger_t22_authority
+concept.case_r_ear	illustrates	principle.cialdini_authority
+concept.case_r_ear	uses_defense	concept.defense_two_challenge
+concept.case_r_ear	uses_defense	concept.defense_readback
+concept.case_consult_detective	kb_kind	case
+concept.case_consult_detective	name_ko	상담 윤리: 밀수꾼 금지·탐정 실천
+concept.case_consult_detective	part_of	concept.persuasion_misjudgment
+concept.case_consult_detective	applies_at	org.namyangju_baek_hospital
+concept.case_consult_detective	description	[자료 내용] 금지: '이번 달까지만 이 가격', 근거 없는 '다들 이걸로 하세요', 큰 비용 먼저 제시, 빠른 결정 압박 / 실천: 실제 근거·우리 병원 실제 결과, 대안(비수술·경과 관찰) 장단점, 이유 제시(#24), 집에서 결정할 시간
+concept.case_consult_detective	illustrates	principle.cialdini_scarcity
+concept.case_consult_detective	illustrates	principle.cialdini_social_proof
+concept.case_consult_detective	illustrates	concept.munger_t16_contrast
+concept.case_consult_detective	illustrates	concept.munger_t17_stress
+concept.case_consult_detective	illustrates	concept.munger_t24_reason
+concept.case_consult_detective	uses_defense	rule.persuasion_ethics_gate
+concept.case_appointment_card	kb_kind	case
+concept.case_appointment_card	name_ko	환자가 쓰는 예약카드
+concept.case_appointment_card	part_of	concept.persuasion_misjudgment
+concept.case_appointment_card	applies_at	org.namyangju_baek_hospital
+concept.case_appointment_card	description	[자료 내용] 환자가 예약카드를 직접 쓰면 노쇼 18% 감소; 재활 목표를 환자 본인 말로
+concept.case_appointment_card	illustrates	principle.cialdini_consistency
+concept.case_hand_hygiene	kb_kind	case
+concept.case_hand_hygiene	name_ko	실제 손위생 준수율 공유
+concept.case_hand_hygiene	part_of	concept.persuasion_misjudgment
+concept.case_hand_hygiene	applies_at	org.namyangju_baek_hospital
+concept.case_hand_hygiene	description	[자료 내용] 동료 실제 준수율을 공유 (사실일 때만)
+concept.case_hand_hygiene	illustrates	principle.cialdini_social_proof
+concept.case_hand_hygiene	uses_defense	concept.defense_proof_check
+concept.case_hotel_towel	kb_kind	case
+concept.case_hotel_towel	name_ko	호텔 수건 재사용
+concept.case_hotel_towel	part_of	concept.persuasion_misjudgment
+concept.case_hotel_towel	applies_at	org.namyangju_baek_hospital
+concept.case_hotel_towel	description	[자료 내용] '이 방 투숙객 75%가 재사용' → 26% 증가 (Goldstein·Cialdini·Griskevicius 2008)
+concept.case_hotel_towel	illustrates	principle.cialdini_social_proof
+concept.case_advice_not_opinion	kb_kind	case
+concept.case_advice_not_opinion	name_ko	의견 말고 조언 구하기
+concept.case_advice_not_opinion	part_of	concept.persuasion_misjudgment
+concept.case_advice_not_opinion	applies_at	org.namyangju_baek_hospital
+concept.case_advice_not_opinion	description	[자료 내용] 조언을 구하면 상대가 공동 저자가 되어 '한 팀'이 된다
+concept.case_advice_not_opinion	illustrates	principle.cialdini_unity
+concept.case_metric_inversion	kb_kind	case
+concept.case_metric_inversion	name_ko	지표 역발상
+concept.case_metric_inversion	part_of	concept.persuasion_misjudgment
+concept.case_metric_inversion	applies_at	org.namyangju_baek_hospital
+concept.case_metric_inversion	description	[자료 내용] 이 지표를 올리려면 직원이 무엇을 '잘못' 하게 될까? (#1)
+concept.case_metric_inversion	illustrates	concept.munger_t01_reward
+concept.case_metric_inversion	uses_defense	concept.defense_inversion
+concept.case_metric_inversion	uses_defense	concept.defense_incentive_redesign
+concept.case_messenger_protection	kb_kind	case
+concept.case_messenger_protection	name_ko	나쁜 소식 전달자 보호
+concept.case_messenger_protection	part_of	concept.persuasion_misjudgment
+concept.case_messenger_protection	applies_at	org.namyangju_baek_hospital
+concept.case_messenger_protection	description	[자료 내용] 나쁜 소식을 가져온 사람에게 감사하고 보호한다 (#10)
+concept.case_messenger_protection	illustrates	concept.munger_t10_association
+concept.case_messenger_protection	uses_defense	concept.defense_two_challenge
+concept.case_diagnostic_bias	kb_kind	case
+concept.case_diagnostic_bias	name_ko	진단 편향 표
+concept.case_diagnostic_bias	part_of	concept.persuasion_misjudgment
+concept.case_diagnostic_bias	applies_at	org.namyangju_baek_hospital
+concept.case_diagnostic_bias	description	[자료 내용] 앵커링(#5·#4), 최근 희귀 사례(#18), 넘겨받은 진단(#22·#15), 야간 당직(#17→체크리스트), 내 실력 과신(#12·#13→'내 실제 합병증률 데이터는?')
+concept.case_diagnostic_bias	illustrates	concept.munger_t05_inconsistency
+concept.case_diagnostic_bias	illustrates	concept.munger_t04_doubt
+concept.case_diagnostic_bias	illustrates	concept.munger_t18_availability
+concept.case_diagnostic_bias	illustrates	concept.munger_t22_authority
+concept.case_diagnostic_bias	illustrates	concept.munger_t15_social_proof
+concept.case_diagnostic_bias	illustrates	concept.munger_t17_stress
+concept.case_diagnostic_bias	illustrates	concept.munger_t12_self_regard
+concept.case_diagnostic_bias	illustrates	concept.munger_t13_optimism
+concept.case_diagnostic_bias	uses_defense	concept.defense_darwin_rule
+concept.case_diagnostic_bias	uses_defense	concept.defense_checklist
+concept.case_less_twaddle	kb_kind	case
+concept.case_less_twaddle	name_ko	헛소리 줄이기·술기 훈련
+concept.case_less_twaddle	part_of	concept.persuasion_misjudgment
+concept.case_less_twaddle	applies_at	org.namyangju_baek_hospital
+concept.case_less_twaddle	description	[자료 내용] 결정과 근거를 한 줄로(#23); 드문 술기는 시뮬레이션 훈련(#19)
+concept.case_less_twaddle	illustrates	concept.munger_t23_twaddle
+concept.case_less_twaddle	illustrates	concept.munger_t19_use_it
+concept.case_less_twaddle	uses_defense	concept.defense_5w
+concept.case_less_twaddle	uses_defense	concept.defense_checklist
+concept.persuader_types	kb_kind	persuader_types
+concept.persuader_types	part_of	concept.persuasion_misjudgment
+concept.persuader_types	type	서투른 자: 진짜 강점도 못 살린다
+concept.persuader_types	type	밀수꾼: 가짜 희귀성·권위를 들여온다 → 결국 평판 붕괴
+concept.persuader_types	type	탐정: 상황에 이미 있는 진짜 요소만 찾아 정직하게 드러낸다
+concept.persuader_types	hospital_model	[자료 내용] 병원의 모델은 탐정
+concept.persuader_types	institutional_design	[자료 내용] 멍거식 제도 설계: 금전등록기, 원가 가산 계약 금지처럼 구조로 부패 차단
+concept.persuader_types	illustrated_by	concept.case_consult_detective
+concept.persuader_types	enforced_by	rule.persuasion_ethics_gate
+rule.persuasion_fact_gate	kb_kind	gate
+rule.persuasion_fact_gate	part_of	concept.ceo_persuasion_philosophy
+rule.persuasion_fact_gate	rule	설득 계획 전에 검증된 팩트(출처·확인 여부)를 먼저 확인한다. 검증 팩트가 0개면 '사기꾼 영역'으로 차단하고 필요한 팩트를 요구한다
+rule.persuasion_fact_gate	rule	각 설득 원칙은 자기 근거 팩트 종류가 확인될 때만 쓸 수 있다 (Tactic -requires- Fact)
+rule.persuasion_fact_gate	rule	초안에 나온 수치는 검증 팩트 안에 있어야 한다. 없으면 '근거 없는 수치'로 수정 요구
+rule.persuasion_fact_gate	derived_from	principle.fact_before_persuasion
+rule.persuasion_fact_gate	derived_from	principle.fact_persuasion_matrix
+rule.persuasion_fact_gate	implemented_by	model.persuasion_engine
+rule.persuasion_fact_gate	fact_kind	fact:outcome_data (우리 병원·조직의 실제 결과 데이터)
+rule.persuasion_fact_gate	fact_kind	fact:statistic (비슷한 사람들의 실제 통계·사례(검증 가능))
+rule.persuasion_fact_gate	fact_kind	fact:credential (실제 전문 분야·경력·자격)
+rule.persuasion_fact_gate	fact_kind	fact:real_limit (실제 수량·기한·자원 제한)
+rule.persuasion_fact_gate	fact_kind	fact:favor (상대에게 먼저 준 실제 도움·가치)
+rule.persuasion_fact_gate	fact_kind	fact:shared_identity (실제 공유하는 소속·정체성·목표)
+rule.persuasion_fact_gate	fact_kind	fact:shared_trait (실제 공통점·진심 어린 인정 근거)
+rule.persuasion_fact_gate	fact_kind	fact:commitment (상대가 자발적으로 한 이전 약속·목표(본인 말))
+rule.persuasion_fact_gate	fact_kind	fact:reason (제안의 실제 이유(왜))
+rule.persuasion_fact_gate	fact_kind	fact:alternative (대안(비수술·경과 관찰 포함)과 장단점)
+rule.persuasion_fact_gate	fact_kind	fact:comparison (정직한 비교 기준(실제 가격·조건))
+rule.persuasion_ethics_gate	kb_kind	gate
+rule.persuasion_ethics_gate	part_of	concept.ceo_persuasion_philosophy
+rule.persuasion_ethics_gate	part_of	concept.persuasion_misjudgment
+rule.persuasion_ethics_gate	rule	탐정만 허용, 밀수꾼 금지: 가짜 희귀성·조작된 사회적 증거·약점 압박·결정 시간 박탈 금지
+rule.persuasion_ethics_gate	rule	투자 권유·수익 보장 문구는 어떤 경우에도 차단
+rule.persuasion_ethics_gate	rule	외부 발송(메일·메시지·게시)은 대표님 승인 후에만
+rule.persuasion_ethics_gate	derived_from	concept.persuader_types
+rule.persuasion_ethics_gate	derived_from	principle.fact_before_persuasion
+rule.persuasion_ethics_gate	implemented_by	model.persuasion_engine
+rule.persuasion_ethics_gate	signal	M1 :: 가짜 희귀성(실제 제한 확인 없음) :: block :: 한정|마감|오늘만|선착순|품절|마지막\s*기회|남은\s*수량|카운트다운|까지만|곧\s*종료|단\s*하루 :: real_limit
+rule.persuasion_ethics_gate	signal	M2 :: 조작된 사회적 증거(통계 확인 없음) :: block :: \d[\d,]*\s*(명|분)(이|께서)?\s*(선택|구매|신청|가입|사용)|다들|모두가|대부분의\s*(분|사람)|1위|대세 :: statistic
+rule.persuasion_ethics_gate	signal	M3 :: 약점을 이용한 압박(불안+재촉) :: block :: (불안|두려|위험|큰일|늦으면|후회|악화|마비|평생).{0,40}(지금|오늘|당장|즉시|바로)|(지금|오늘|당장|즉시|바로).{0,40}(불안|큰일|늦으면|후회|악화|마비|평생) :: -
+rule.persuasion_ethics_gate	signal	M4 :: 수익 보장 :: block :: 수익\s*(을\s*)?보장|원금\s*(을\s*)?보장|확정\s*수익|손실\s*(이\s*)?없|무조건\s*(수익|오르|올라)|월\s*\d+\s*%\s*(수익)?|고수익\s*보장|\d+\s*배\s*(수익|상승)\s*(확정|보장) :: -
+rule.persuasion_ethics_gate	signal	M5 :: 투자 권유 :: block :: (매수|투자)\s*(하세요|하십시오|하셔야|추천)|종목\s*추천|리딩방|지금\s*사(세요|야)|급등\s*(예정|종목) :: -
+rule.persuasion_ethics_gate	signal	M6 :: 권위 부풀리기(자격 확인 없음) :: warn :: 국내\s*최고|세계적\s*권위|최고의\s*명의|명의|최고\s*권위자 :: credential
+rule.persuasion_ethics_gate	signal	M7 :: 대조 착시(작아 보이게 하기) :: warn :: 겨우|단돈|밖에\s*안|에\s*비하면 :: comparison
+rule.persuasion_ethics_gate	signal	M8 :: 결정 시간 박탈 :: block :: (오늘|지금|당장)\s*(바로\s*)?(결정|계약|결제|서명)|생각할\s*시간\s*(이\s*)?없 :: -
+rule.persuasion_ethics_gate	signal	M9 :: 가짜 '우리'(영업 맥락) :: warn :: 가족처럼|우리\s*사이에|형님\s*동생 :: shared_identity
+rule.persuasion_ethics_gate	signal	M10 :: 근거 없는 남 탓·싸움 프레임 :: warn :: 탓|책임은\s*(저들|그들)|심판|응징|전쟁|박살|몰락 :: -
+ref.persuasion_misjudgment_pdf	title	설득과 오판: 영향력의 과학 × 오판의 심리학 (NDB 직원 교육자료, Spine Center 직원 역량 강화 강의 노트, 2026-10, 16쪽)
+ref.persuasion_misjudgment_pdf	describes	concept.persuasion_misjudgment
+ref.persuasion_misjudgment_pdf	cites	ref.cialdini_influence
+ref.persuasion_misjudgment_pdf	cites	ref.munger_misjudgment
+ref.persuasion_misjudgment_pdf	cites_studies	Regan 1971; Cialdini 1975; Freedman & Fraser 1966; Goldstein·Cialdini·Griskevicius 2008; Martin·Bassi·Dunbar-Rees 2012; Mandel & Johnson 2002; Milgram 1963
+ref.persuasion_misjudgment_pdf	caveat	[자료 내용] 재현성 위기(수치는 원 연구 값), WEIRD 표본(한국은 집단주의), 멍거 목록은 실무자의 관찰 체크리스트, 편향을 안다고 사라지지 않음
+ref.cialdini_influence	title	Robert Cialdini, Influence: The Psychology of Persuasion (2021 확장판); Pre-Suasion (2016)
+ref.cialdini_influence	basis_of	principle.cialdini_reciprocity
+ref.cialdini_influence	basis_of	principle.cialdini_presuasion
+ref.cialdini_influence	method	[자료 내용] 3년간 영업·방문판매·모금 조직에 잠입 관찰; 칠면조 '칩칩' 소리 = 클릭-윙(자동 반응)
+ref.munger_misjudgment	title	Charlie Munger, The Psychology of Human Misjudgment (1995 하버드 강연, 2005 개정); Practical Thought About Practical Thought? (1996)
+ref.munger_misjudgment	basis_of	concept.munger_t25_lollapalooza
+ref.munger_misjudgment	related	model.munger
+ref.munger_misjudgment	frame	[자료 내용] 표준적 오작동: 평소엔 잘 맞는 어림법이 특정 조건에서 오판을 낳는다
+ref.aristotle_rhetoric	title	Stanford Encyclopedia of Philosophy, 'Aristotle's Rhetoric' (Rhet. I.2, 1356a)
+ref.aristotle_rhetoric	fact	기술적 설득 수단(pisteis)은 셋: 말하는 사람의 성품(ethos), 듣는 사람의 감정(pathos), 논증 자체(logos)
+ref.aristotle_rhetoric	fact	ethos 신뢰의 근거 = 실천적 지혜(phronesis)·덕·선의
+ref.aristotle_rhetoric	fact	수사학은 오용될 수 있다는 문제를 아리스토텔레스도 다뤘다 (SEP 4.3절)
+ref.aristotle_rhetoric	url	https://plato.stanford.edu/entries/aristotle-rhetoric/
+ref.aristotle_rhetoric	describes	concept.logos_ethos_pathos
+ref.elm_petty_cacioppo	title	Petty & Cacioppo (1986) The Elaboration Likelihood Model of Persuasion, Advances in Experimental Social Psychology 19권 123~205쪽
+ref.elm_petty_cacioppo	fact	중심 경로 = 주장의 장점을 꼼꼼히 따짐; 주변 경로 = 단순 단서(출처의 매력·전문성 등)로 판단
+ref.elm_petty_cacioppo	fact	중심 경로로 바뀐 태도가 더 오래가고 행동을 더 잘 예측한다
+ref.elm_petty_cacioppo	url	https://doi.org/10.1016/S0065-2601(08)60214-2
+ref.elm_petty_cacioppo	url	https://richardepetty.com/wp-content/uploads/2019/01/1986-advances-pettycacioppo.pdf
+ref.elm_petty_cacioppo	describes	concept.elm_routes
+concept.logos_ethos_pathos	kb_kind	message_order
+concept.logos_ethos_pathos	part_of	concept.ceo_persuasion_philosophy
+concept.logos_ethos_pathos	source	ref.aristotle_rhetoric
+concept.logos_ethos_pathos	order	logos → ethos → pathos (팩트 먼저, 그다음 신뢰, 마지막에 감정)
+concept.logos_ethos_pathos	logos	검증된 팩트·이유·대안 (원칙: 이유 존중 #24, 팩트 게이트)
+concept.logos_ethos_pathos	ethos	실제 자격·경력·선의 (원칙: 권위·호감·연대감, 부풀림 금지)
+concept.logos_ethos_pathos	pathos	상대의 목표·두려움에 공감하되 압박 금지 (원칙: 일관성—본인 목표 말로 쓰기)
+concept.logos_ethos_pathos	note	[해석] 순서는 대표님 원칙(팩트 먼저)을 메시지 구성에 옮긴 것; 아리스토텔레스 원문이 순서를 정한 것은 아니다
+concept.elm_routes	kb_kind	elm
+concept.elm_routes	part_of	concept.ceo_persuasion_philosophy
+concept.elm_routes	source	ref.elm_petty_cacioppo
+concept.elm_routes	route	high :: 중심 경로 :: 관여도 높음(내 몸·돈·생명과 직결, 시간·능력 있음) → 논증의 질, 양면 메시지, 데이터·대안
+concept.elm_routes	route	low :: 주변 경로 :: 관여도 낮음(관심 적음, 바쁨) → 짧고 쉬운 단서(진짜 자격, 실제 사회적 증거, 이야기); 팩트 한 줄은 반드시
+concept.elm_routes	route	unknown :: 혼합 :: 관여도 모름 → 첫 문장 핵심 팩트 + 짧은 신뢰 단서, 관심 보이면 상세 근거
+concept.elm_routes	note	[해석] 치알디니 원칙들은 대개 주변 경로 단서로 작동한다; 환자 수술 상담은 중심 경로가 기본
+concept.elm_routes	maps_to	principle.politics_psychology_first
+principle.politics_psychology_first	kb_kind	ceo_principle
+principle.politics_psychology_first	name_ko	정치는 팩트보다 심리
+principle.politics_psychology_first	part_of	concept.ceo_persuasion_philosophy
+principle.politics_psychology_first	said_by	person.choi_sunjong (2026-10-25 대화)
+principle.politics_psychology_first	fact	정치는 팩트보다 심리(설득 심리)가 먼저 작동한다
+principle.politics_psychology_first	fact	학자·기자·과학자는 팩트가 먼저다
+principle.politics_psychology_first	note	[해석] ELM로 보면 대중 정치는 관여도가 낮은 주변 경로가 지배적이고, 학자·기자·과학자는 중심 경로(논증의 질)로 판단한다
+principle.politics_psychology_first	note	[해석] 아리스토텔레스 수사학으로 보면 학자=logos 중심, 정치=ethos·pathos 비중이 크다
+principle.politics_psychology_first	supported_by	ref.aristotle_rhetoric
+principle.politics_psychology_first	supported_by	ref.elm_petty_cacioppo
+principle.politics_psychology_first	maps_to	concept.elm_routes
+principle.politics_psychology_first	maps_to	concept.logos_ethos_pathos
+principle.fact_before_persuasion	kb_kind	ceo_principle
+principle.fact_before_persuasion	name_ko	팩트 없는 설득은 사기꾼
+principle.fact_before_persuasion	part_of	concept.ceo_persuasion_philosophy
+principle.fact_before_persuasion	said_by	person.choi_sunjong (2026-10-25 대화)
+principle.fact_before_persuasion	fact	팩트 없이 설득하면 사기꾼이다
+principle.fact_before_persuasion	fact	팩트를 바탕으로 설득하면 사업가·학자·정치가다
+principle.fact_before_persuasion	note	[해석] 치알디니의 밀수꾼(가짜 요소) vs 탐정(진짜 요소)과 같은 구분이다
+principle.fact_before_persuasion	note	[해석] 아리스토텔레스도 수사학이 오용될 수 있음을 인정했다(SEP 4.3절)
+principle.fact_before_persuasion	enforced_by	rule.persuasion_fact_gate
+principle.fact_before_persuasion	same_as	concept.persuader_types
+principle.fact_before_persuasion	supported_by	ref.aristotle_rhetoric
+principle.fact_persuasion_matrix	kb_kind	ceo_principle
+principle.fact_persuasion_matrix	name_ko	팩트×설득 2×2 매트릭스
+principle.fact_persuasion_matrix	part_of	concept.ceo_persuasion_philosophy
+principle.fact_persuasion_matrix	said_by	person.choi_sunjong (2026-10-25 대화)
+principle.fact_persuasion_matrix	fact	팩트 O·설득 O = 리더
+principle.fact_persuasion_matrix	fact	팩트 X·설득 O = 사기꾼
+principle.fact_persuasion_matrix	fact	팩트 O·설득 X = 학자형 (정치에서는 실패형)
+principle.fact_persuasion_matrix	fact	팩트 X·설득 X = 무존재
+principle.fact_persuasion_matrix	note	[해석] 엔진 plan 모드의 사분면 판정이 이 매트릭스를 그대로 쓴다
+principle.fact_persuasion_matrix	note	대표님이 든 정치인 실명 예시는 bot.politics 민감 규칙(개별 정치인 평가는 위키에 옮기지 않음)에 따라 넣지 않았다
+principle.fact_persuasion_matrix	refines	principle.fact_before_persuasion
+principle.fact_persuasion_matrix	enforced_by	rule.persuasion_fact_gate
+principle.fact_persuasion_matrix	related	bot.politics
+principle.fact_persuasion_matrix	related	principle.catalyst_triad
+principle.mass_reaction_hooks	kb_kind	ceo_principle
+principle.mass_reaction_hooks	name_ko	대중이 반응하는 4가지
+principle.mass_reaction_hooks	part_of	concept.ceo_persuasion_philosophy
+principle.mass_reaction_hooks	said_by	person.choi_sunjong (2026-10-25 대화)
+principle.mass_reaction_hooks	fact	대중은 싸움 구경, 남 안 되는 것, 새로운 것, 남 탓에 반응한다
+principle.mass_reaction_hooks	note	[해석] 싸움 구경·남 탓 ↔ 멍거 #3 반감/증오, 남 안 되는 것 ↔ #8 시기/질투, 새로운 것 ↔ #6 호기심
+principle.mass_reaction_hooks	note	[해석] 이 갈고리는 팩트가 없으면 선동이 된다 → 윤리 게이트 M10(근거 없는 남 탓·싸움 프레임) 경고 대상
+principle.mass_reaction_hooks	maps_to	concept.munger_t03_disliking
+principle.mass_reaction_hooks	maps_to	concept.munger_t08_envy
+principle.mass_reaction_hooks	maps_to	concept.munger_t06_curiosity
+principle.mass_reaction_hooks	guarded_by	rule.persuasion_ethics_gate
+principle.mass_reaction_hooks	cue	싸움 구경 :: 심판; 응징; 전쟁; 대결; 맞붙; 격돌
+principle.mass_reaction_hooks	cue	남 안 되는 것 :: 몰락; 추락; 망했; 실패했; 무너
+principle.mass_reaction_hooks	cue	새로운 것 :: 최초; 새로운; 처음으로; 혁신
+principle.mass_reaction_hooks	cue	남 탓 :: 탓; 때문에 망; 책임은 저들; 그들 때문
+principle.bandwagon_cascade	kb_kind	ceo_principle
+principle.bandwagon_cascade	name_ko	밴드왜건: 기울면 더 몰린다
+principle.bandwagon_cascade	part_of	concept.ceo_persuasion_philosophy
+principle.bandwagon_cascade	said_by	person.choi_sunjong (2026-10-25 대화)
+principle.bandwagon_cascade	fact	판세가 한쪽으로 기울면 더 많은 사람이 따라간다
+principle.bandwagon_cascade	note	[해석] 치알디니 사회적 증거·멍거 #15의 연쇄형이며, #14 박탈(뒤처질까)과 결합하면 롤라팔루자가 된다
+principle.bandwagon_cascade	note	[해석] 실제 지지 데이터가 있을 때만 쓴다; 지지율 부풀리기는 M2(조작된 사회적 증거)
+principle.bandwagon_cascade	maps_to	principle.cialdini_social_proof
+principle.bandwagon_cascade	maps_to	concept.munger_t15_social_proof
+principle.bandwagon_cascade	amplifies	concept.munger_t14_deprivation
+principle.bandwagon_cascade	cue	대세; 지지율; 판세; 기울; 역전; 압승; 몰리
+concept.ceo_persuasion_philosophy	wiki_code	WIKI-CODE-021
+concept.ceo_persuasion_philosophy	kb_kind	hub
+concept.ceo_persuasion_philosophy	owner	person.choi_sunjong
+concept.ceo_persuasion_philosophy	summary	팩트 위에 설득을 세운다: 팩트 없는 설득은 사기꾼, 팩트만 있고 설득이 없으면 학자형, 둘 다 있어야 리더
+concept.ceo_persuasion_philosophy	rank	최상위 원칙: 치알디니·멍거 도구(WIKI-CODE-020)는 이 원칙 아래에서만 쓴다
+concept.ceo_persuasion_philosophy	governs	concept.persuasion_misjudgment
+concept.ceo_persuasion_philosophy	has_principle	principle.politics_psychology_first
+concept.ceo_persuasion_philosophy	has_principle	principle.fact_before_persuasion
+concept.ceo_persuasion_philosophy	has_principle	principle.fact_persuasion_matrix
+concept.ceo_persuasion_philosophy	has_principle	principle.mass_reaction_hooks
+concept.ceo_persuasion_philosophy	has_principle	principle.bandwagon_cascade
+concept.ceo_persuasion_philosophy	has_gate	rule.persuasion_fact_gate
+concept.ceo_persuasion_philosophy	has_gate	rule.persuasion_ethics_gate
+concept.ceo_persuasion_philosophy	uses	concept.logos_ethos_pathos
+concept.ceo_persuasion_philosophy	uses	concept.elm_routes
+concept.ceo_persuasion_philosophy	supported_by	ref.aristotle_rhetoric
+concept.ceo_persuasion_philosophy	supported_by	ref.elm_petty_cacioppo
+concept.ceo_persuasion_philosophy	related	principle.political_judgment
+concept.ceo_persuasion_philosophy	related	principle.catalyst_triad
+concept.ceo_persuasion_philosophy	implemented_by	model.persuasion_engine
+concept.persuasion_misjudgment	wiki_code	WIKI-CODE-020
+concept.persuasion_misjudgment	kb_kind	hub
+concept.persuasion_misjudgment	source	ref.persuasion_misjudgment_pdf
+concept.persuasion_misjudgment	summary	[자료 내용] 치알디니 7원칙(남이 나를 움직이는 방식)과 멍거 25경향(내가 나를 속이는 방식)은 같은 뿌리(자동 반응)를 가리킨다
+concept.persuasion_misjudgment	governed_by	concept.ceo_persuasion_philosophy
+concept.persuasion_misjudgment	lecture	project.ndb_lecture_persuasion_202610
+concept.persuasion_misjudgment	three_pillars	[자료 내용] 관계(상호성·호감·연대감) / 불확실성 해소(사회적 증거·권위) / 즉각 행동(일관성·희귀성)
+concept.persuasion_misjudgment	autopilot_conditions	[자료 내용] 병원은 시간 압박·피로·위계·불확실성·감정이 겹쳐 자동 반응이 잘 켜진다
+concept.persuasion_misjudgment	defense_layers	[자료 내용] 감지(치알디니) → 분리(멍거) → 구조(체크리스트·제도)
+concept.persuasion_misjudgment	cialdini_only	[자료 내용] 초전 설득, 연대감, 설득자 윤리, 신체 경보, 다크 패턴
+concept.persuasion_misjudgment	related	model.munger
+concept.persuasion_misjudgment	related	model.ndb
+concept.persuasion_misjudgment	related	concept.rise_fall_3layers
+concept.persuasion_misjudgment	related	principle.political_judgment
+concept.persuasion_misjudgment	has	concept.persuader_types
+concept.persuasion_misjudgment	has	rule.persuasion_ethics_gate
+concept.persuasion_misjudgment	implemented_by	model.persuasion_engine
+concept.persuasion_misjudgment	has_principle	principle.cialdini_reciprocity
+concept.persuasion_misjudgment	has_principle	principle.cialdini_liking
+concept.persuasion_misjudgment	has_principle	principle.cialdini_unity
+concept.persuasion_misjudgment	has_principle	principle.cialdini_social_proof
+concept.persuasion_misjudgment	has_principle	principle.cialdini_authority
+concept.persuasion_misjudgment	has_principle	principle.cialdini_consistency
+concept.persuasion_misjudgment	has_principle	principle.cialdini_scarcity
+concept.persuasion_misjudgment	has_principle	principle.cialdini_presuasion
+concept.persuasion_misjudgment	has_tendency	concept.munger_t01_reward
+concept.persuasion_misjudgment	has_tendency	concept.munger_t02_liking
+concept.persuasion_misjudgment	has_tendency	concept.munger_t03_disliking
+concept.persuasion_misjudgment	has_tendency	concept.munger_t04_doubt
+concept.persuasion_misjudgment	has_tendency	concept.munger_t05_inconsistency
+concept.persuasion_misjudgment	has_tendency	concept.munger_t06_curiosity
+concept.persuasion_misjudgment	has_tendency	concept.munger_t07_fairness
+concept.persuasion_misjudgment	has_tendency	concept.munger_t08_envy
+concept.persuasion_misjudgment	has_tendency	concept.munger_t09_reciprocity
+concept.persuasion_misjudgment	has_tendency	concept.munger_t10_association
+concept.persuasion_misjudgment	has_tendency	concept.munger_t11_denial
+concept.persuasion_misjudgment	has_tendency	concept.munger_t12_self_regard
+concept.persuasion_misjudgment	has_tendency	concept.munger_t13_optimism
+concept.persuasion_misjudgment	has_tendency	concept.munger_t14_deprivation
+concept.persuasion_misjudgment	has_tendency	concept.munger_t15_social_proof
+concept.persuasion_misjudgment	has_tendency	concept.munger_t16_contrast
+concept.persuasion_misjudgment	has_tendency	concept.munger_t17_stress
+concept.persuasion_misjudgment	has_tendency	concept.munger_t18_availability
+concept.persuasion_misjudgment	has_tendency	concept.munger_t19_use_it
+concept.persuasion_misjudgment	has_tendency	concept.munger_t20_drug
+concept.persuasion_misjudgment	has_tendency	concept.munger_t21_senescence
+concept.persuasion_misjudgment	has_tendency	concept.munger_t22_authority
+concept.persuasion_misjudgment	has_tendency	concept.munger_t23_twaddle
+concept.persuasion_misjudgment	has_tendency	concept.munger_t24_reason
+concept.persuasion_misjudgment	has_tendency	concept.munger_t25_lollapalooza
+concept.persuasion_misjudgment	has_combo	concept.lolla_winners_curse
+concept.persuasion_misjudgment	has_combo	concept.lolla_coca_cola
+concept.persuasion_misjudgment	has_combo	concept.lolla_dark_pattern
+concept.persuasion_misjudgment	has_combo	concept.lolla_wrong_site_surgery
+concept.persuasion_misjudgment	has_combo	concept.lolla_milgram
+concept.persuasion_misjudgment	has_combo	concept.lolla_tupperware
+concept.persuasion_misjudgment	has_defense	concept.defense_body_alarm
+concept.persuasion_misjudgment	has_defense	concept.defense_logic_filter
+concept.persuasion_misjudgment	has_defense	concept.defense_two_track
+concept.persuasion_misjudgment	has_defense	concept.defense_inversion
+concept.persuasion_misjudgment	has_defense	concept.defense_checklist
+concept.persuasion_misjudgment	has_defense	concept.defense_devils_advocate
+concept.persuasion_misjudgment	has_defense	concept.defense_incentive_redesign
+concept.persuasion_misjudgment	has_defense	concept.defense_temptation_removal
+concept.persuasion_misjudgment	has_defense	concept.defense_5w
+concept.persuasion_misjudgment	has_defense	concept.defense_two_challenge
+concept.persuasion_misjudgment	has_defense	concept.defense_readback
+concept.persuasion_misjudgment	has_defense	concept.defense_darwin_rule
+concept.persuasion_misjudgment	has_defense	concept.defense_lolla_checklist
+concept.persuasion_misjudgment	has_defense	concept.defense_reclassify_gift
+concept.persuasion_misjudgment	has_defense	concept.defense_authority_two_questions
+concept.persuasion_misjudgment	has_defense	concept.defense_scarcity_pause
+concept.persuasion_misjudgment	has_defense	concept.defense_proof_check
+concept.persuasion_misjudgment	has_case	concept.case_r_ear
+concept.persuasion_misjudgment	has_case	concept.case_consult_detective
+concept.persuasion_misjudgment	has_case	concept.case_appointment_card
+concept.persuasion_misjudgment	has_case	concept.case_hand_hygiene
+concept.persuasion_misjudgment	has_case	concept.case_hotel_towel
+concept.persuasion_misjudgment	has_case	concept.case_advice_not_opinion
+concept.persuasion_misjudgment	has_case	concept.case_metric_inversion
+concept.persuasion_misjudgment	has_case	concept.case_messenger_protection
+concept.persuasion_misjudgment	has_case	concept.case_diagnostic_bias
+concept.persuasion_misjudgment	has_case	concept.case_less_twaddle
+model.persuasion_engine	kb_kind	engine
+model.persuasion_engine	is_a	model.ndb (뉴로심볼릭: LLM이 단서 추출·문장 초안, 기호 규칙이 검증·점수·차단)
+model.persuasion_engine	path	engine/engine.py (analyze 방어 / plan 공격 / check 윤리)
+model.persuasion_engine	knowledge_from	이 위키의 설득 개체 → build_kb.py → knowledge.json
+model.persuasion_engine	implements	rule.persuasion_fact_gate
+model.persuasion_engine	implements	rule.persuasion_ethics_gate
+model.persuasion_engine	implements	concept.ceo_persuasion_philosophy
+model.persuasion_engine	uses	concept.persuasion_misjudgment
+model.persuasion_engine	limit	[해석] 키워드·정규식 기반이라 문맥을 놓칠 수 있다; LLM 단서와 사람 판단으로 보완
+project.ndb_lecture_persuasion_202610	title	남양주백병원 10월 직원 교육: 설득과 오판 (Spine Center 직원 역량 강화 강의 노트)
+project.ndb_lecture_persuasion_202610	organized_by	org.namyangju_baek_hospital
+project.ndb_lecture_persuasion_202610	produced	concept.persuasion_misjudgment
+project.ndb_lecture_persuasion_202610	source	ref.persuasion_misjudgment_pdf
+project.ndb_lecture_persuasion_202610	sibling_of	project.ndb_lecture_ggs_202610 (같은 10월 직원 강의 묶음, [해석])
+project.ndb_lecture_persuasion_202610	open_question	강의자·강의 일시·대상 부서는 PDF에 없음 (미확인)

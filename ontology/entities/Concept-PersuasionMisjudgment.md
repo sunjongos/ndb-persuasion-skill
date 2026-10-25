@@ -1,0 +1,93 @@
+---
+id: concept.persuasion_misjudgment
+type: Topic
+updated: 2026-10-25
+confidence: 0.85
+source: 대표님 제공 PDF 「설득과 오판: 영향력의 과학 × 오판의 심리학」(NDB 남양주백병원 직원 교육자료, 16쪽, 2026-10) 2026-10-25 수신
+---
+- concept.persuasion_misjudgment - wiki_code - WIKI-CODE-020
+- concept.persuasion_misjudgment - kb_kind - hub
+- concept.persuasion_misjudgment - source - ref.persuasion_misjudgment_pdf
+- concept.persuasion_misjudgment - summary - [자료 내용] 치알디니 7원칙(남이 나를 움직이는 방식)과 멍거 25경향(내가 나를 속이는 방식)은 같은 뿌리(자동 반응)를 가리킨다
+- concept.persuasion_misjudgment - governed_by - concept.ceo_persuasion_philosophy
+- concept.persuasion_misjudgment - lecture - project.ndb_lecture_persuasion_202610
+- concept.persuasion_misjudgment - three_pillars - [자료 내용] 관계(상호성·호감·연대감) / 불확실성 해소(사회적 증거·권위) / 즉각 행동(일관성·희귀성)
+- concept.persuasion_misjudgment - autopilot_conditions - [자료 내용] 병원은 시간 압박·피로·위계·불확실성·감정이 겹쳐 자동 반응이 잘 켜진다
+- concept.persuasion_misjudgment - defense_layers - [자료 내용] 감지(치알디니) → 분리(멍거) → 구조(체크리스트·제도)
+- concept.persuasion_misjudgment - cialdini_only - [자료 내용] 초전 설득, 연대감, 설득자 윤리, 신체 경보, 다크 패턴
+- concept.persuasion_misjudgment - related - model.munger
+- concept.persuasion_misjudgment - related - model.ndb
+- concept.persuasion_misjudgment - related - concept.rise_fall_3layers
+- concept.persuasion_misjudgment - related - principle.political_judgment
+- concept.persuasion_misjudgment - has - concept.persuader_types
+- concept.persuasion_misjudgment - has - rule.persuasion_ethics_gate
+- concept.persuasion_misjudgment - implemented_by - model.persuasion_engine
+- concept.persuasion_misjudgment - has_principle - principle.cialdini_reciprocity
+- concept.persuasion_misjudgment - has_principle - principle.cialdini_liking
+- concept.persuasion_misjudgment - has_principle - principle.cialdini_unity
+- concept.persuasion_misjudgment - has_principle - principle.cialdini_social_proof
+- concept.persuasion_misjudgment - has_principle - principle.cialdini_authority
+- concept.persuasion_misjudgment - has_principle - principle.cialdini_consistency
+- concept.persuasion_misjudgment - has_principle - principle.cialdini_scarcity
+- concept.persuasion_misjudgment - has_principle - principle.cialdini_presuasion
+- concept.persuasion_misjudgment - has_tendency - concept.munger_t01_reward
+- concept.persuasion_misjudgment - has_tendency - concept.munger_t02_liking
+- concept.persuasion_misjudgment - has_tendency - concept.munger_t03_disliking
+- concept.persuasion_misjudgment - has_tendency - concept.munger_t04_doubt
+- concept.persuasion_misjudgment - has_tendency - concept.munger_t05_inconsistency
+- concept.persuasion_misjudgment - has_tendency - concept.munger_t06_curiosity
+- concept.persuasion_misjudgment - has_tendency - concept.munger_t07_fairness
+- concept.persuasion_misjudgment - has_tendency - concept.munger_t08_envy
+- concept.persuasion_misjudgment - has_tendency - concept.munger_t09_reciprocity
+- concept.persuasion_misjudgment - has_tendency - concept.munger_t10_association
+- concept.persuasion_misjudgment - has_tendency - concept.munger_t11_denial
+- concept.persuasion_misjudgment - has_tendency - concept.munger_t12_self_regard
+- concept.persuasion_misjudgment - has_tendency - concept.munger_t13_optimism
+- concept.persuasion_misjudgment - has_tendency - concept.munger_t14_deprivation
+- concept.persuasion_misjudgment - has_tendency - concept.munger_t15_social_proof
+- concept.persuasion_misjudgment - has_tendency - concept.munger_t16_contrast
+- concept.persuasion_misjudgment - has_tendency - concept.munger_t17_stress
+- concept.persuasion_misjudgment - has_tendency - concept.munger_t18_availability
+- concept.persuasion_misjudgment - has_tendency - concept.munger_t19_use_it
+- concept.persuasion_misjudgment - has_tendency - concept.munger_t20_drug
+- concept.persuasion_misjudgment - has_tendency - concept.munger_t21_senescence
+- concept.persuasion_misjudgment - has_tendency - concept.munger_t22_authority
+- concept.persuasion_misjudgment - has_tendency - concept.munger_t23_twaddle
+- concept.persuasion_misjudgment - has_tendency - concept.munger_t24_reason
+- concept.persuasion_misjudgment - has_tendency - concept.munger_t25_lollapalooza
+- concept.persuasion_misjudgment - has_combo - concept.lolla_winners_curse
+- concept.persuasion_misjudgment - has_combo - concept.lolla_coca_cola
+- concept.persuasion_misjudgment - has_combo - concept.lolla_dark_pattern
+- concept.persuasion_misjudgment - has_combo - concept.lolla_wrong_site_surgery
+- concept.persuasion_misjudgment - has_combo - concept.lolla_milgram
+- concept.persuasion_misjudgment - has_combo - concept.lolla_tupperware
+- concept.persuasion_misjudgment - has_defense - concept.defense_body_alarm
+- concept.persuasion_misjudgment - has_defense - concept.defense_logic_filter
+- concept.persuasion_misjudgment - has_defense - concept.defense_two_track
+- concept.persuasion_misjudgment - has_defense - concept.defense_inversion
+- concept.persuasion_misjudgment - has_defense - concept.defense_checklist
+- concept.persuasion_misjudgment - has_defense - concept.defense_devils_advocate
+- concept.persuasion_misjudgment - has_defense - concept.defense_incentive_redesign
+- concept.persuasion_misjudgment - has_defense - concept.defense_temptation_removal
+- concept.persuasion_misjudgment - has_defense - concept.defense_5w
+- concept.persuasion_misjudgment - has_defense - concept.defense_two_challenge
+- concept.persuasion_misjudgment - has_defense - concept.defense_readback
+- concept.persuasion_misjudgment - has_defense - concept.defense_darwin_rule
+- concept.persuasion_misjudgment - has_defense - concept.defense_lolla_checklist
+- concept.persuasion_misjudgment - has_defense - concept.defense_reclassify_gift
+- concept.persuasion_misjudgment - has_defense - concept.defense_authority_two_questions
+- concept.persuasion_misjudgment - has_defense - concept.defense_scarcity_pause
+- concept.persuasion_misjudgment - has_defense - concept.defense_proof_check
+- concept.persuasion_misjudgment - has_case - concept.case_r_ear
+- concept.persuasion_misjudgment - has_case - concept.case_consult_detective
+- concept.persuasion_misjudgment - has_case - concept.case_appointment_card
+- concept.persuasion_misjudgment - has_case - concept.case_hand_hygiene
+- concept.persuasion_misjudgment - has_case - concept.case_hotel_towel
+- concept.persuasion_misjudgment - has_case - concept.case_advice_not_opinion
+- concept.persuasion_misjudgment - has_case - concept.case_metric_inversion
+- concept.persuasion_misjudgment - has_case - concept.case_messenger_protection
+- concept.persuasion_misjudgment - has_case - concept.case_diagnostic_bias
+- concept.persuasion_misjudgment - has_case - concept.case_less_twaddle
+- concept.persuasion_misjudgment - extended_by - concept.persuasion_research (WIKI-CODE-022 설득심리학 심층연구)
+- concept.persuasion_misjudgment - partially_flagged_by - concept.replication_failed (점화·자아 고갈 근거)
+> 검색어: 설득과 오판, 치알디니, 멍거, 롤라팔루자, 병원 설득 윤리
